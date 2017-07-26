@@ -1,19 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/10/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/11/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/12/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/5/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/6/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/page/9/index.html" afterPath="" />
+    <list default="true" id="17318b52-f174-4421-b91f-e293feb7df25" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jianwenSun.github.io.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2017/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/5/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/6/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/7/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/9/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/Hexo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/Idea/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/Intellij/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/Tinny/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/UML/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/avro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/backbone/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/big-data/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/big-data/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/bootstrap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/boxmodel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/cglib/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/collection/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/concurrent/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/dom/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/duoshuo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/elasticsearch/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/flume/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/frm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/guava/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/hbase/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/hhkb/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/hive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/keyboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/kibana/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/life/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/log/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/logstash/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/mac/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/map/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/microservice/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/mybatis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/mysql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/netty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/orm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/playframework/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/proxy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/queue/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/redis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/scala/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/scala/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/set/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/spark/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/spring/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springbatch/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springboot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springboot/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springboot/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springboot源码分析/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springcloud/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/springmvc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/svn/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/swagger/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/thread/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/threadlocal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/总结/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/杂事/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" afterPath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/07/index.html" afterPath="$PROJECT_DIR$/archives/2017/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/index.html" afterPath="$PROJECT_DIR$/archives/2017/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/3/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/algorithm/index.html" afterPath="$PROJECT_DIR$/categories/algorithm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/architecture/index.html" afterPath="$PROJECT_DIR$/categories/architecture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/cache/index.html" afterPath="$PROJECT_DIR$/categories/cache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/index.html" afterPath="$PROJECT_DIR$/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/index.html" afterPath="$PROJECT_DIR$/categories/java/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/page/2/index.html" afterPath="$PROJECT_DIR$/categories/java/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/jdk/index.html" afterPath="$PROJECT_DIR$/categories/jdk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/kafka/index.html" afterPath="$PROJECT_DIR$/categories/kafka/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="$PROJECT_DIR$/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/algorithm/index.html" afterPath="$PROJECT_DIR$/tags/algorithm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/architecture/index.html" afterPath="$PROJECT_DIR$/tags/architecture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/cache/index.html" afterPath="$PROJECT_DIR$/tags/cache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/index.html" afterPath="$PROJECT_DIR$/tags/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/index.html" afterPath="$PROJECT_DIR$/tags/java/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/2/index.html" afterPath="$PROJECT_DIR$/tags/java/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/3/index.html" afterPath="$PROJECT_DIR$/tags/java/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/4/index.html" afterPath="$PROJECT_DIR$/tags/java/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/index.html" afterPath="$PROJECT_DIR$/tags/jdk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jdk/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/index.html" afterPath="$PROJECT_DIR$/tags/jvm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jvm/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/nio/index.html" afterPath="$PROJECT_DIR$/tags/nio/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,64 +123,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="227">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/index.html">
+        <entry file="file://$PROJECT_DIR$/categories/architecture/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-817">
-              <caret line="95" column="104" lean-forward="false" selection-start-line="95" selection-start-column="104" selection-end-line="95" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/12/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/categories/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
+            <state relative-caret-position="141">
+              <caret line="430" column="0" lean-forward="false" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/archives/index.html">
+        <entry file="file://$PROJECT_DIR$/archives/2017/page/2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="335" column="179" lean-forward="false" selection-start-line="335" selection-start-column="179" selection-end-line="335" selection-end-column="179" />
-              <folding>
-                <element signature="n#article#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,16 +157,32 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>吃饭睡觉撸代码</find>
-      <find>fangjian0423</find>
-      <find>Format</find>
-      <find>26</find>
+      <find>y</find>
+      <find>yo</find>
+      <find>you</find>
+      <find>有</find>
+      <find>友情lianjie</find>
+      <find>友情lianji</find>
+      <find>友情lianj</find>
+      <find>友情lian</find>
+      <find>友情lia</find>
+      <find>友情li</find>
+      <find>友情l</find>
+      <find>友情</find>
+      <find>友情了</find>
+      <find>友情里</find>
+      <find>友情连</find>
+      <find>友情链接</find>
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace>不一样的自己</replace>
-      <replace>jianwensun</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\Github\jianwenSun.github.io</dir>
+      <dir>D:\Github\jianwenSun.github.io\archives\page</dir>
+      <dir>D:\Github\jianwenSun.github.io\tags\java</dir>
+      <dir>D:\Github\jianwenSun.github.io\</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,11 +195,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/about/index.html" />
-        <option value="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
-        <option value="$PROJECT_DIR$/categories/index.html" />
-        <option value="$PROJECT_DIR$/archives/index.html" />
+        <option value="$PROJECT_DIR$/categories/architecture/index.html" />
       </list>
     </option>
   </component>
@@ -143,7 +221,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,11 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12" />
+              <option name="myItemId" value="tags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,6 +258,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,7 +317,233 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,6 +589,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -553,17 +885,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="" />
-      <created>1501044151962</created>
+      <changelist id="17318b52-f174-4421-b91f-e293feb7df25" name="Default" comment="" />
+      <created>1501046249294</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1501044151962</updated>
+      <updated>1501046249294</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,21 +904,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -602,58 +933,36 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/atom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="227">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.html">
+    <entry file="file://$PROJECT_DIR$/categories/architecture/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="95" column="104" lean-forward="false" selection-start-line="95" selection-start-column="104" selection-end-line="95" selection-end-column="104" />
+        <state relative-caret-position="141">
+          <caret line="430" column="0" lean-forward="false" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/12/index.html">
+    <entry file="file://$PROJECT_DIR$/archives/2017/page/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        <state relative-caret-position="133">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
+    <entry file="file://$PROJECT_DIR$/tags/netty/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="516" column="14" lean-forward="false" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="335" column="179" lean-forward="false" selection-start-line="335" selection-start-column="179" selection-end-line="335" selection-end-column="179" />
-          <folding>
-            <element signature="n#article#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
