@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/07/30/Hexo_Tinny_duoshuo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/08/06/Backbone/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/08/11/Idea_SVN/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/08/16/java-dynamic-proxy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/08/16/redis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/09/06/MapperScannerConfigurer-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/09/21/dom-parse-xml-html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/10/31/intellij_idea_uml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/11/01/logstash_build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/11/22/java_threadlocal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/12/10/mybatis_cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/12/15/mybatis_interceptor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/12/21/2014-12-21/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2014/12/31/2014_end/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/01/06/mybatis_helper/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/01/11/bootstrap-grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/02/06/groovy_note/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/03/01/css_position/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/03/07/css_boxmodel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/03/08/bootstrap-grid-theory/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/03/30/mac-jdk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/05/17/playframework-introduce/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/05/31/scala-class-object/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/05/31/scala-introduction/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/04/scala-pattern-match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/07/scala-generic/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/07/scala-trait/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/12/scala-func-program/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/14/scala-partial/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/20/scala-collection/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/21/flume-introduction/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/21/flume-source/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/21/hhkb-desc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/22/flume-channel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/06/23/flume-sink/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/07/flume-run/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/12/elasticsearch-tutorials/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/14/flume-notes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/20/flume-hdfs-sink/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/24/java-poolthread/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/26/google-guava-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/07/31/hive-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/08/07/hbase-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/08/14/scala-future/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/08/18/slick-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/09/21/springboot-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/10/07/scala-predef/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/10/24/front-end/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/10/29/html-left-right-menu/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/11/07/elasticsearch-search-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/12/20/scala-implicit/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2015/12/23/scala-spray-json/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/01/01/2015_end/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/01/03/flume-transaction/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/01/13/kafka-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/01/19/flume-channel-full-exception/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/01/27/spark-programming-guide/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/02/10/sparkstreaming-programming-guide/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/02/17/spark-sql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/02/21/avro-intro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/12/java-Object-method/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/16/java-AtomicInteger-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/19/java-ReentrantLock-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/22/java-threadpool-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/27/jdk_arraylist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/27/jdk_linkedlist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/29/jdk_hashmap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/29/jdk_linkedhashmap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/03/30/jdk_hashset_linkedhashset/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/03/jdk_arraydeque/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/07/jdk_treemap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/08/jdk_treeset/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/09/heap-heapsort/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/10/jdk_priorityqueue/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/12/jdk-concurrentskiplistmap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/04/18/java-synchronize-way/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/05/01/countdownlatch-cyclicbarrier-difference/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/05/10/java-arrayblockingqueue-linkedblockingqueue-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/06/04/java-thread-state/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/06/12/springboot-autoconfig-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/06/22/springboot-with-scala/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/06/25/springboot-actuator/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/08/19/netty-in-action-note1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/08/29/netty-in-action-note2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/08/30/netty-custom-protocol/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/09/03/netty-unittest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/10/07/springboot-transaction/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/10/09/springboot-swagger/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/11/04/java-annotation-retentionpolicy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/11/09/springbatch-retry-skip/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/11/13/springboot-enable-annotation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2016/11/16/springboot-custom-starter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/01/01/2016_end/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/01/29/loadbalance/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/02/19/springcloud-hystrix/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/02/22/springcloud-zuul/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/03/26/design-pattern/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/04/30/springboot-startup-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/05/10/springboot-context-refresh/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/05/16/springboot-condition-annotation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/05/22/springboot-embedded-servlet-container/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/05/24/spring-data-es-query-problem/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/05/31/springboot-executable-jar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/02/spring-data-es-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/05/springboot-factory-loading-mechanism/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/05/springboot-source-analysis-summary/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/10/springboot-environment-analysis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/11/spring-custom-component-provider/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/15/spring-bean-register-note/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/20/spring-bean-post-processor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/24/spring-embedded-bean-post-processor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/06/28/springboot-application-exit/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017/07/05/mysql-index-summary/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/09/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2014/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/06/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/07/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/09/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2015/page/4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/01/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/02/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/03/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/04/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/05/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/06/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/08/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/09/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archives/2016/page/4/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-817">
+              <caret line="95" column="104" lean-forward="false" selection-start-line="95" selection-start-column="104" selection-end-line="95" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/12/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-855">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jianwenSun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es-cluster-notes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jianwenSun.github.io" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="jmh-id" factoryName="Jmh">
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="" />
+      <created>1501044151962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501044151962</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="95" column="104" lean-forward="false" selection-start-line="95" selection-start-column="104" selection-end-line="95" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
