@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17318b52-f174-4421-b91f-e293feb7df25" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" afterPath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/07/index.html" afterPath="$PROJECT_DIR$/archives/2017/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/index.html" afterPath="$PROJECT_DIR$/archives/2017/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/algorithm/index.html" afterPath="$PROJECT_DIR$/categories/algorithm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/architecture/index.html" afterPath="$PROJECT_DIR$/categories/architecture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/cache/index.html" afterPath="$PROJECT_DIR$/categories/cache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/index.html" afterPath="$PROJECT_DIR$/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/index.html" afterPath="$PROJECT_DIR$/categories/java/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/page/2/index.html" afterPath="$PROJECT_DIR$/categories/java/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/jdk/index.html" afterPath="$PROJECT_DIR$/categories/jdk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/kafka/index.html" afterPath="$PROJECT_DIR$/categories/kafka/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="$PROJECT_DIR$/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/algorithm/index.html" afterPath="$PROJECT_DIR$/tags/algorithm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/architecture/index.html" afterPath="$PROJECT_DIR$/tags/architecture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/cache/index.html" afterPath="$PROJECT_DIR$/tags/cache/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/index.html" afterPath="$PROJECT_DIR$/tags/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/index.html" afterPath="$PROJECT_DIR$/tags/java/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/2/index.html" afterPath="$PROJECT_DIR$/tags/java/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/3/index.html" afterPath="$PROJECT_DIR$/tags/java/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/4/index.html" afterPath="$PROJECT_DIR$/tags/java/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/index.html" afterPath="$PROJECT_DIR$/tags/jdk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jdk/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/index.html" afterPath="$PROJECT_DIR$/tags/jvm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jvm/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/nio/index.html" afterPath="$PROJECT_DIR$/tags/nio/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,21 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="697" column="0" lean-forward="false" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
+            <state relative-caret-position="112">
+              <caret line="665" column="20" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="128" column="48" lean-forward="true" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tags/algorithm/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3078">
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -69,12 +118,15 @@
       <find>&lt;span class=&quot;site-state-item-count&quot;&gt;26&lt;/span&gt;</find>
       <find>&lt;span class=&quot;site-state-item-count&quot;&gt;65&lt;/span&gt;</find>
       <find>&lt;span class=&quot;site-state-item-count&quot;&gt;65&lt;/span&gt;</find>
+      <find>不一样的自己</find>
+      <find>http://7x2wh6.com1.z0.glb.clouddn.com/avatar.jpg</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&lt;span class=&quot;site-state-item-count&quot;&gt;1&lt;/span&gt;</replace>
       <replace>&lt;span class=&quot;site-state-item-count&quot;&gt;9&lt;/span&gt;</replace>
       <replace>&lt;span class=&quot;site-state-item-count&quot;&gt;8&lt;/span&gt;</replace>
+      <replace>http://resource.qq201.com/attached/image/20150810/56861.jpg</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Github\jianwenSun.github.io\archives\page</dir>
@@ -99,8 +151,8 @@
         <option value="$PROJECT_DIR$/archives/index.html" />
         <option value="$PROJECT_DIR$/tags/index.html" />
         <option value="$PROJECT_DIR$/categories/index.html" />
-        <option value="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
+        <option value="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
       </list>
     </option>
   </component>
@@ -737,18 +789,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
+    <entry file="file://$PROJECT_DIR$/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="697" column="0" lean-forward="false" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="128" column="48" lean-forward="true" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.html">
+    <entry file="file://$PROJECT_DIR$/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="-3078">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/algorithm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="665" column="20" lean-forward="false" selection-start-line="665" selection-start-column="20" selection-end-line="665" selection-end-column="20" />
           <folding />
         </state>
       </provider>
