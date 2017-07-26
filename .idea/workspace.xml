@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/avro/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/bootstrap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/css/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/elasticsearch/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/flume/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/groovy/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hbase/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hhkb/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hive/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/javascript/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/mybatis/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/mysql/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/netty/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/scala/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/scala/page/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/spark/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/spring/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/page/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/page/3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springcloud/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/总结/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/杂事/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/index.html" afterPath="$PROJECT_DIR$/categories/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
               <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/categories/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -83,6 +71,7 @@
       <find>吃饭睡觉撸代码</find>
       <find>fangjian0423</find>
       <find>Format</find>
+      <find>26</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -104,6 +93,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
         <option value="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
+        <option value="$PROJECT_DIR$/categories/index.html" />
       </list>
     </option>
   </component>
@@ -611,6 +601,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -627,7 +618,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -690,6 +681,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="292" column="14" lean-forward="true" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
           <folding />
         </state>
       </provider>
