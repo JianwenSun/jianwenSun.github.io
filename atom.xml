@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Format&#39;s Notes</title>
-  <subtitle>吃饭睡觉撸代码</subtitle>
+  <subtitle>不一样的自己</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://fangjian0423.github.io/"/>
+  <link href="http://jianwensun.github.io/"/>
   <updated>2017-07-25T03:35:49.000Z</updated>
-  <id>http://fangjian0423.github.io/</id>
+  <id>http://jianwensun.github.io/</id>
   
   <author>
     <name>Format</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Elasticsearch集群知识笔记</title>
-    <link href="http://fangjian0423.github.io/2017/07/24/es-cluster-notes/"/>
-    <id>http://fangjian0423.github.io/2017/07/24/es-cluster-notes/</id>
+    <link href="http://jianwensun.github.io/2017/07/24/es-cluster-notes/"/>
+    <id>http://jianwensun.github.io/2017/07/24/es-cluster-notes/</id>
     <published>2017-07-24T13:20:20.000Z</published>
     <updated>2017-07-25T03:35:49.000Z</updated>
     
@@ -165,19 +165,19 @@
     
     </summary>
     
-      <category term="elasticsearch" scheme="http://fangjian0423.github.io/categories/elasticsearch/"/>
+      <category term="elasticsearch" scheme="http://jianwensun.github.io/categories/elasticsearch/"/>
     
     
-      <category term="big data" scheme="http://fangjian0423.github.io/tags/big-data/"/>
+      <category term="big data" scheme="http://jianwensun.github.io/tags/big-data/"/>
     
-      <category term="elasticsearch" scheme="http://fangjian0423.github.io/tags/elasticsearch/"/>
+      <category term="elasticsearch" scheme="http://jianwensun.github.io/tags/elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>MySQL索引知识总结</title>
-    <link href="http://fangjian0423.github.io/2017/07/05/mysql-index-summary/"/>
-    <id>http://fangjian0423.github.io/2017/07/05/mysql-index-summary/</id>
+    <link href="http://jianwensun.github.io/2017/07/05/mysql-index-summary/"/>
+    <id>http://jianwensun.github.io/2017/07/05/mysql-index-summary/</id>
     <published>2017-07-05T11:30:30.000Z</published>
     <updated>2017-07-04T03:38:12.000Z</updated>
     
@@ -248,19 +248,19 @@
     
     </summary>
     
-      <category term="mysql" scheme="http://fangjian0423.github.io/categories/mysql/"/>
+      <category term="mysql" scheme="http://jianwensun.github.io/categories/mysql/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="mysql" scheme="http://fangjian0423.github.io/tags/mysql/"/>
+      <category term="mysql" scheme="http://jianwensun.github.io/tags/mysql/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot应用程序的关闭</title>
-    <link href="http://fangjian0423.github.io/2017/06/28/springboot-application-exit/"/>
-    <id>http://fangjian0423.github.io/2017/06/28/springboot-application-exit/</id>
+    <link href="http://jianwensun.github.io/2017/06/28/springboot-application-exit/"/>
+    <id>http://jianwensun.github.io/2017/06/28/springboot-application-exit/</id>
     <published>2017-06-28T01:15:30.000Z</published>
     <updated>2017-06-28T02:21:17.000Z</updated>
     
@@ -312,21 +312,21 @@
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="spring" scheme="http://fangjian0423.github.io/tags/spring/"/>
+      <category term="spring" scheme="http://jianwensun.github.io/tags/spring/"/>
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>Spring内置的BeanPostProcessor总结</title>
-    <link href="http://fangjian0423.github.io/2017/06/24/spring-embedded-bean-post-processor/"/>
-    <id>http://fangjian0423.github.io/2017/06/24/spring-embedded-bean-post-processor/</id>
+    <link href="http://jianwensun.github.io/2017/06/24/spring-embedded-bean-post-processor/"/>
+    <id>http://jianwensun.github.io/2017/06/24/spring-embedded-bean-post-processor/</id>
     <published>2017-06-23T16:57:01.000Z</published>
     <updated>2017-06-23T17:23:46.000Z</updated>
     
@@ -392,21 +392,21 @@
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="spring" scheme="http://fangjian0423.github.io/tags/spring/"/>
+      <category term="spring" scheme="http://jianwensun.github.io/tags/spring/"/>
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>Spring内部的BeanPostProcessor接口总结</title>
-    <link href="http://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/"/>
-    <id>http://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/</id>
+    <link href="http://jianwensun.github.io/2017/06/20/spring-bean-post-processor/"/>
+    <id>http://jianwensun.github.io/2017/06/20/spring-bean-post-processor/</id>
     <published>2017-06-20T11:30:30.000Z</published>
     <updated>2017-06-22T16:54:53.000Z</updated>
     
@@ -462,21 +462,21 @@
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="spring" scheme="http://fangjian0423.github.io/tags/spring/"/>
+      <category term="spring" scheme="http://jianwensun.github.io/tags/spring/"/>
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>Spring类注册笔记</title>
-    <link href="http://fangjian0423.github.io/2017/06/15/spring-bean-register-note/"/>
-    <id>http://fangjian0423.github.io/2017/06/15/spring-bean-register-note/</id>
+    <link href="http://jianwensun.github.io/2017/06/15/spring-bean-register-note/"/>
+    <id>http://jianwensun.github.io/2017/06/15/spring-bean-register-note/</id>
     <published>2017-06-15T14:14:37.000Z</published>
     <updated>2017-06-15T14:49:22.000Z</updated>
     
@@ -486,7 +486,7 @@
 <li>BeanDefinitionReader接口。目前有3种实现，分别是GroovyBeanDefinitionReader(groovy文件的读取器)、PropertiesBeanDefinitionReader(Properties文件的读取器)和XmlBeanDefinitionReader(xml文件的读取器)。这3个实现类都继承AbstractBeanDefinitionReader，AbstractBeanDefinitionReader抽象类内部有个BeanDefinitionRegistry接口类型的属性，BeanDefinitionRegistry接口存在的意义在于对bean数据的管理，包括bean的注册、删除、查找等。这3个实现类内部最终对bean的注册都是通过BeanDefinitionRegistry完成的，不同点在于它们处理过程不一样，比如xml文件的解析和properties文件的解析这个过程不一样</li>
 <li>AnnotatedBeanDefinitionReader类。独立的一个类，用来注册单独的类，也是使用BeanDefinitionRegistry接口类型的属性完成bean的注册</li>
 <li>ClassPathScanningCandidateComponentProvider类。独立的一个类，用来找出具体包下的bean信息，内部有2个TypeFilter集合属性，includeFilters和excludeFilters，分别用于对找出的bean信息做匹配，includeFilters中的TypeFilter只要有一个满足，就不会过滤；excludeFilters中的TypeFilter只要有一个满足，就会被过滤。ClassPathBeanDefinitionScanner是ClassPathScanningCandidateComponentProvider类的子类，提供了scan方法，这个scan方法会找出包下的bean信息并使用BeanDefinitionRegistry接口类型的属性完成bean的注册</li>
-<li>ConfigurationClassParser类。独立的一个类，用来解析被@Configuration注解修饰的配置类。在<br><a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a>文章中分析过ConfigurationClassParser的作用。简单点来说就是ConfigurationClassParser会解析被@Configuration注解修饰的类，然后再处理这个类内部被其它注解修饰的情况，比如@Import注解、@ComponentScan注解、@ImportResource注解、@Bean注解等。这里解析过程中也会遇到其它被@Configuration注解修饰的类，这些类会放到ConfigurationClassParser的configurationClasses属性中然后被ConfigurationClassBeanDefinitionReader处理</li>
+<li>ConfigurationClassParser类。独立的一个类，用来解析被@Configuration注解修饰的配置类。在<br><a href="http://jianwensun.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a>文章中分析过ConfigurationClassParser的作用。简单点来说就是ConfigurationClassParser会解析被@Configuration注解修饰的类，然后再处理这个类内部被其它注解修饰的情况，比如@Import注解、@ComponentScan注解、@ImportResource注解、@Bean注解等。这里解析过程中也会遇到其它被@Configuration注解修饰的类，这些类会放到ConfigurationClassParser的configurationClasses属性中然后被ConfigurationClassBeanDefinitionReader处理</li>
 <li>ConfigurationClassBeanDefinitionReader，独立的一个类，处理ConfigurationClassParser解析出的被@Configuration注解修饰的配置类，会处理配置类内部的被@Bean注解修饰的方法、@ImportResource注解修饰的资源、@Import注解修饰的ImportBeanDefinitionRegistrar接口。最后使用BeanDefinitionRegistry注册</li>
 <li>ComponentScanAnnotationParser，独立的一个类，@ComponentScan注解对应的解析器，内部使用ClassPathBeanDefinitionScanner完成</li>
 </ol>
@@ -526,21 +526,21 @@
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="spring" scheme="http://fangjian0423.github.io/tags/spring/"/>
+      <category term="spring" scheme="http://jianwensun.github.io/tags/spring/"/>
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>Spring自定义类扫描器</title>
-    <link href="http://fangjian0423.github.io/2017/06/11/spring-custom-component-provider/"/>
-    <id>http://fangjian0423.github.io/2017/06/11/spring-custom-component-provider/</id>
+    <link href="http://jianwensun.github.io/2017/06/11/spring-custom-component-provider/"/>
+    <id>http://jianwensun.github.io/2017/06/11/spring-custom-component-provider/</id>
     <published>2017-06-11T10:41:50.000Z</published>
     <updated>2017-06-14T07:13:21.000Z</updated>
     
@@ -608,21 +608,21 @@
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="spring" scheme="http://fangjian0423.github.io/tags/spring/"/>
+      <category term="spring" scheme="http://jianwensun.github.io/tags/spring/"/>
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之配置环境的构造过程</title>
-    <link href="http://fangjian0423.github.io/2017/06/10/springboot-environment-analysis/"/>
-    <id>http://fangjian0423.github.io/2017/06/10/springboot-environment-analysis/</id>
+    <link href="http://jianwensun.github.io/2017/06/10/springboot-environment-analysis/"/>
+    <id>http://jianwensun.github.io/2017/06/10/springboot-environment-analysis/</id>
     <published>2017-06-10T11:30:30.000Z</published>
     <updated>2017-06-10T08:05:24.000Z</updated>
     
@@ -637,7 +637,7 @@
 <h2 id="Environment的构造以及PropertySource的生成"><a href="#Environment的构造以及PropertySource的生成" class="headerlink" title="Environment的构造以及PropertySource的生成"></a>Environment的构造以及PropertySource的生成</h2><p>Environment接口是Spring对当前程序运行期间的环境的封装。主要提供了两大功能：profile和property(父接口PropertyResolver提供)。目前主要有StandardEnvironment、StandardServletEnvironment和MockEnvironment3种实现，分别代表普通程序、Web程序以及测试程序的环境。</p>
 <p>下面这段代码就是SpringBoot的run方法内调用的，它会在Spring容器构造之前调用，创建环境信息：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// SpringApplication.class</span></div><div class="line"><span class="function"><span class="keyword">private</span> ConfigurableApplicationContext <span class="title">createAndRefreshContext</span><span class="params">(</span></span></div><div class="line">		SpringApplicationRunListeners listeners,</div><div class="line">		ApplicationArguments applicationArguments) &#123;</div><div class="line">	ConfigurableApplicationContext context;</div><div class="line">	<span class="comment">// 如果是web环境，创建StandardServletEnvironment</span></div><div class="line">	<span class="comment">// 否则，创建StandardEnvironment</span></div><div class="line">	<span class="comment">// StandardServletEnvironment继承自StandardEnvironment，StandardEnvironment继承AbstractEnvironment</span></div><div class="line">	<span class="comment">// AbstractEnvironment内部有个MutablePropertySources类型的propertySources属性，用于存储多个属性源PropertySource</span></div><div class="line">	<span class="comment">// StandardEnvironment构造的时候会默认加上2个PropertySource。分别是MapPropertySource(调用System.getProperties()配置)和SystemEnvironmentPropertySource(调用System.getenv()配置)</span></div><div class="line">	ConfigurableEnvironment environment = getOrCreateEnvironment();</div><div class="line">	<span class="comment">// 如果设置了一些启动参数args，添加基于args的SimpleCommandLinePropertySource</span></div><div class="line">	<span class="comment">// 还会配置profile信息，比如设置了spring.profiles.active启动参数，设置到环境信息中</span></div><div class="line">	configureEnvironment(environment, applicationArguments.getSourceArgs());</div><div class="line">	<span class="comment">// 触发ApplicationEnvironmentPreparedEvent事件</span></div><div class="line">	listeners.environmentPrepared(environment);</div><div class="line">	...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>在<a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>这篇文章中，我们分析过SpringApplication启动的时候会使用<a href="http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism/">工厂加载机制</a>初始化一些初始化器和监听器。其中org.springframework.boot.context.config.ConfigFileApplicationListener这个监听器会被加载：</p>
+<p>在<a href="http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>这篇文章中，我们分析过SpringApplication启动的时候会使用<a href="http://jianwensun.github.io/2017/06/05/springboot-factory-loading-mechanism/">工厂加载机制</a>初始化一些初始化器和监听器。其中org.springframework.boot.context.config.ConfigFileApplicationListener这个监听器会被加载：</p>
 <pre><code>// spring-boot-version.release/META-INF/spring.factories
 org.springframework.context.ApplicationListener=\
 ...
@@ -712,21 +712,21 @@ my.name: 2
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析系列</title>
-    <link href="http://fangjian0423.github.io/2017/06/05/springboot-source-analysis-summary/"/>
-    <id>http://fangjian0423.github.io/2017/06/05/springboot-source-analysis-summary/</id>
+    <link href="http://jianwensun.github.io/2017/06/05/springboot-source-analysis-summary/"/>
+    <id>http://jianwensun.github.io/2017/06/05/springboot-source-analysis-summary/</id>
     <published>2017-06-05T11:40:30.000Z</published>
     <updated>2017-06-28T01:56:28.000Z</updated>
     
@@ -734,27 +734,27 @@ my.name: 2
 <p>本系列不涉及SpringBoot的入门，主要针对想深入学习SpringBoot的读者。</p>
 <p>目前已经有的文章：</p>
 <ol>
-<li><a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/16/springboot-condition-annotation/">SpringBoot源码分析之条件注解的底层实现</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/22/springboot-embedded-servlet-container/">SpringBoot源码分析之内置Servlet容器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/31/springboot-executable-jar/">SpringBoot源码分析之SpringBoot可执行文件解析</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism">SpringBoot源码分析之工厂加载机制</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/10/springboot-environment-analysis">SpringBoot源码分析之配置环境的构造过程</a></li>
+<li><a href="http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a></li>
+<li><a href="http://jianwensun.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a></li>
+<li><a href="http://jianwensun.github.io/2017/05/16/springboot-condition-annotation/">SpringBoot源码分析之条件注解的底层实现</a></li>
+<li><a href="http://jianwensun.github.io/2017/05/22/springboot-embedded-servlet-container/">SpringBoot源码分析之内置Servlet容器</a></li>
+<li><a href="http://jianwensun.github.io/2017/05/31/springboot-executable-jar/">SpringBoot源码分析之SpringBoot可执行文件解析</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/05/springboot-factory-loading-mechanism">SpringBoot源码分析之工厂加载机制</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/10/springboot-environment-analysis">SpringBoot源码分析之配置环境的构造过程</a></li>
 </ol>
 <p>另外也会写一些Spring和SpringBoot相关的文章。</p>
 <p>Spring：</p>
 <ol>
-<li><a href="http://fangjian0423.github.io/2017/06/11/spring-custom-component-provider/">Spring自定义类扫描器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/15/spring-bean-register-note/">Spring类注册笔记</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/">Spring内部的BeanPostProcessor接口总结</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/24/spring-embedded-bean-post-processor/">Spring内置的BeanPostProcessor总结</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/11/spring-custom-component-provider/">Spring自定义类扫描器</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/15/spring-bean-register-note/">Spring类注册笔记</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/20/spring-bean-post-processor/">Spring内部的BeanPostProcessor接口总结</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/24/spring-embedded-bean-post-processor/">Spring内置的BeanPostProcessor总结</a></li>
 </ol>
 <p>SpringBoot：</p>
 <ol>
-<li><a href="http://fangjian0423.github.io/2017/06/28/springboot-application-exit/">SpringBoot应用程序的关闭</a></li>
+<li><a href="http://jianwensun.github.io/2017/06/28/springboot-application-exit/">SpringBoot应用程序的关闭</a></li>
 </ol>
-<p>会写一些例子记录学习的过程，上传到<a href="https://github.com/fangjian0423/springboot-analysis" target="_blank" rel="external">github</a>。</p>
+<p>会写一些例子记录学习的过程，上传到<a href="https://github.com/jianwensun/springboot-analysis" target="_blank" rel="external">github</a>。</p>
 <p>我不能保证写的每个地方都是对的，有问题的地方还请指出来，一起学习!</p>
 ]]></content>
     
@@ -768,21 +768,21 @@ my.name: 2
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之工厂加载机制</title>
-    <link href="http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism/"/>
-    <id>http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism/</id>
+    <link href="http://jianwensun.github.io/2017/06/05/springboot-factory-loading-mechanism/"/>
+    <id>http://jianwensun.github.io/2017/06/05/springboot-factory-loading-mechanism/</id>
     <published>2017-06-05T11:30:30.000Z</published>
     <updated>2017-06-05T12:15:43.000Z</updated>
     
@@ -862,25 +862,25 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringData ES中一些底层原理的分析</title>
-    <link href="http://fangjian0423.github.io/2017/06/02/spring-data-es-analysis/"/>
-    <id>http://fangjian0423.github.io/2017/06/02/spring-data-es-analysis/</id>
+    <link href="http://jianwensun.github.io/2017/06/02/spring-data-es-analysis/"/>
+    <id>http://jianwensun.github.io/2017/06/02/spring-data-es-analysis/</id>
     <published>2017-06-02T12:33:33.000Z</published>
     <updated>2017-06-02T15:34:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p>之前写过一篇<a href="http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/">SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</a>，顺便深入学习下Spring Data Elasticsearch。</p>
+    <content type="html"><![CDATA[<p>之前写过一篇<a href="http://jianwensun.github.io/2017/05/24/spring-data-es-query-problem/">SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</a>，顺便深入学习下Spring Data Elasticsearch。</p>
 <p><a href="https://github.com/spring-projects/spring-data-elasticsearch" target="_blank" rel="external">Spring Data Elasticsearch</a>是<a href="http://projects.spring.io/spring-data/" target="_blank" rel="external">Spring Data</a>针对Elasticsearch的实现。</p>
 <p>它跟Spring Data一样，提供了Repository接口，我们只需要定义一个新的接口并继承这个Repository接口，然后就可以注入这个新的接口使用了。</p>
 <p>定义接口：</p>
@@ -914,13 +914,13 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
 <p>需要注意的是这个bean被自动化配置类构造的前提是它们在Spring容器中并不存在。</p>
 <h2 id="Repository的调用过程"><a href="#Repository的调用过程" class="headerlink" title="Repository的调用过程"></a>Repository的调用过程</h2><p>以自定义的TaskRepository的save方法为例，大致的执行流程如下所示：</p>
 <p><img src="http://7x2wh6.com1.z0.glb.clouddn.com/SpringData-ES-seq.png" alt=""></p>
-<p>SimpleElasticsearchRepository的save方法具体的分析在<a href="http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/">SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</a>中分析过。</p>
+<p>SimpleElasticsearchRepository的save方法具体的分析在<a href="http://jianwensun.github.io/2017/05/24/spring-data-es-query-problem/">SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</a>中分析过。</p>
 <p>像自定义的Repository查询方法，或者Repository接口的自定义实现类的操作这些底层，可以去QueryExecutorMethodInterceptor中查看，本文就不做具体分析了。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;之前写过一篇&lt;a href=&quot;http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/&quot;&gt;SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题&lt;/a&gt;，顺便深入学习下Spring Data Elasticsearch。&lt;/p&gt;
+      &lt;p&gt;之前写过一篇&lt;a href=&quot;http://jianwensun.github.io/2017/05/24/spring-data-es-query-problem/&quot;&gt;SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题&lt;/a&gt;，顺便深入学习下Spring Data Elasticsearch。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch&quot;&gt;Spring Data Elasticsearch&lt;/a&gt;是&lt;a href=&quot;http://projects.spring.io/spring-data/&quot;&gt;Spring Data&lt;/a&gt;针对Elasticsearch的实现。&lt;/p&gt;
 &lt;p&gt;它跟Spring Data一样，提供了Repository接口，我们只需要定义一个新的接口并继承这个Repository接口，然后就可以注入这个新的接口使用了。&lt;/p&gt;
 &lt;p&gt;定义接口：&lt;/p&gt;
@@ -930,19 +930,19 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
     
     </summary>
     
-      <category term="java" scheme="http://fangjian0423.github.io/categories/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/categories/java/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="elasticsearch" scheme="http://fangjian0423.github.io/tags/elasticsearch/"/>
+      <category term="elasticsearch" scheme="http://jianwensun.github.io/tags/elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之SpringBoot可执行文件解析</title>
-    <link href="http://fangjian0423.github.io/2017/05/31/springboot-executable-jar/"/>
-    <id>http://fangjian0423.github.io/2017/05/31/springboot-executable-jar/</id>
+    <link href="http://jianwensun.github.io/2017/05/31/springboot-executable-jar/"/>
+    <id>http://jianwensun.github.io/2017/05/31/springboot-executable-jar/</id>
     <published>2017-05-31T12:33:33.000Z</published>
     <updated>2017-05-31T13:53:46.000Z</updated>
     
@@ -1077,21 +1077,21 @@ jar:file:/Users/Format/Develop/gitrepository/springboot-analysis/springboot-exec
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</title>
-    <link href="http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/"/>
-    <id>http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/</id>
+    <link href="http://jianwensun.github.io/2017/05/24/spring-data-es-query-problem/"/>
+    <id>http://jianwensun.github.io/2017/05/24/spring-data-es-query-problem/</id>
     <published>2017-05-23T16:33:33.000Z</published>
     <updated>2017-05-31T13:09:22.000Z</updated>
     
@@ -1150,24 +1150,24 @@ jar:file:/Users/Format/Develop/gitrepository/springboot-analysis/springboot-exec
     
     </summary>
     
-      <category term="java" scheme="http://fangjian0423.github.io/categories/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/categories/java/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="elasticsearch" scheme="http://fangjian0423.github.io/tags/elasticsearch/"/>
+      <category term="elasticsearch" scheme="http://jianwensun.github.io/tags/elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之内置Servlet容器</title>
-    <link href="http://fangjian0423.github.io/2017/05/22/springboot-embedded-servlet-container/"/>
-    <id>http://fangjian0423.github.io/2017/05/22/springboot-embedded-servlet-container/</id>
+    <link href="http://jianwensun.github.io/2017/05/22/springboot-embedded-servlet-container/"/>
+    <id>http://jianwensun.github.io/2017/05/22/springboot-embedded-servlet-container/</id>
     <published>2017-05-22T10:35:36.000Z</published>
     <updated>2017-05-22T12:51:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>SpringBoot内置了Servlet容器，这样项目的发布、部署就不需要额外的Servlet容器，直接启动jar包即可。SpringBoot官方文档上有一个小章节<a href="https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-embedded-container" target="_blank" rel="external">内置servlet容器支持</a>用于说明内置Servlet的相关问题。</p>
-<p>在<a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>文章中我们了解到如果是Web程序，那么会构造AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器，在<a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a>文章中我们知道AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器在refresh的过程中会在onRefresh方法中创建内置的Servlet容器。</p>
+<p>在<a href="http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>文章中我们了解到如果是Web程序，那么会构造AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器，在<a href="http://jianwensun.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a>文章中我们知道AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器在refresh的过程中会在onRefresh方法中创建内置的Servlet容器。</p>
 <p>接下来，我们分析一下内置的Servlet容器相关的知识点。</p>
 <a id="more"></a>
 <h2 id="内置Servlet容器相关的接口和类"><a href="#内置Servlet容器相关的接口和类" class="headerlink" title="内置Servlet容器相关的接口和类"></a>内置Servlet容器相关的接口和类</h2><p>SpringBoot对内置的Servlet容器做了一层封装：</p>
@@ -1698,32 +1698,32 @@ public ConditionOutcome getMatchOutcome(ConditionContext context,
 
 }
 </code></pre><p>所以BeanNameViewResolver不会被构造，Whitelabel Error Page也不会构造，而是直接去找自定义的error视图。</p>
-<p>一些测试代码： <a href="https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-embedded-servlet-conatiner" target="_blank" rel="external">https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-embedded-servlet-conatiner</a></p>
+<p>一些测试代码： <a href="https://github.com/jianwensun/springboot-analysis/tree/master/springboot-embedded-servlet-conatiner" target="_blank" rel="external">https://github.com/jianwensun/springboot-analysis/tree/master/springboot-embedded-servlet-conatiner</a></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;SpringBoot内置了Servlet容器，这样项目的发布、部署就不需要额外的Servlet容器，直接启动jar包即可。SpringBoot官方文档上有一个小章节&lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-embedded-container&quot;&gt;内置servlet容器支持&lt;/a&gt;用于说明内置Servlet的相关问题。&lt;/p&gt;
-&lt;p&gt;在&lt;a href=&quot;http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/&quot;&gt;SpringBoot源码分析之SpringBoot的启动过程&lt;/a&gt;文章中我们了解到如果是Web程序，那么会构造AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器，在&lt;a href=&quot;http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/&quot;&gt;SpringBoot源码分析之Spring容器的refresh过程&lt;/a&gt;文章中我们知道AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器在refresh的过程中会在onRefresh方法中创建内置的Servlet容器。&lt;/p&gt;
+&lt;p&gt;在&lt;a href=&quot;http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/&quot;&gt;SpringBoot源码分析之SpringBoot的启动过程&lt;/a&gt;文章中我们了解到如果是Web程序，那么会构造AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器，在&lt;a href=&quot;http://jianwensun.github.io/2017/05/10/springboot-context-refresh/&quot;&gt;SpringBoot源码分析之Spring容器的refresh过程&lt;/a&gt;文章中我们知道AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器在refresh的过程中会在onRefresh方法中创建内置的Servlet容器。&lt;/p&gt;
 &lt;p&gt;接下来，我们分析一下内置的Servlet容器相关的知识点。&lt;/p&gt;
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之条件注解的底层实现</title>
-    <link href="http://fangjian0423.github.io/2017/05/16/springboot-condition-annotation/"/>
-    <id>http://fangjian0423.github.io/2017/05/16/springboot-condition-annotation/</id>
+    <link href="http://jianwensun.github.io/2017/05/16/springboot-condition-annotation/"/>
+    <id>http://jianwensun.github.io/2017/05/16/springboot-condition-annotation/</id>
     <published>2017-05-16T11:40:13.000Z</published>
     <updated>2017-05-31T13:16:37.000Z</updated>
     
@@ -1894,7 +1894,7 @@ org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration -- OnClassC
 org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration -- OnClassCondition -- required @ConditionalOnClass classes not found: org.springframework.hateoas.Resource,org.springframework.plugin.core.Plugin
 org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- OnClassCondition -- required @ConditionalOnClass classes not found: com.hazelcast.core.HazelcastInstance
 .......
-</code></pre><p>一些测试的例子代码在 <a href="https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-conditional" target="_blank" rel="external">https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-conditional</a> 上</p>
+</code></pre><p>一些测试的例子代码在 <a href="https://github.com/jianwensun/springboot-analysis/tree/master/springboot-conditional" target="_blank" rel="external">https://github.com/jianwensun/springboot-analysis/tree/master/springboot-conditional</a> 上</p>
 ]]></content>
     
     <summary type="html">
@@ -1907,21 +1907,21 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之Spring容器的refresh过程</title>
-    <link href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/"/>
-    <id>http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/</id>
+    <link href="http://jianwensun.github.io/2017/05/10/springboot-context-refresh/"/>
+    <id>http://jianwensun.github.io/2017/05/10/springboot-context-refresh/</id>
     <published>2017-05-10T11:55:21.000Z</published>
     <updated>2017-05-31T13:18:20.000Z</updated>
     
@@ -2001,7 +2001,7 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
 <p>这些BeanPostProcessor会在这个方法内被实例化(通过调用BeanFactory的getBean方法，如果没有找到实例化的类，就会去实例化)。</p>
 <h2 id="initMessageSource方法"><a href="#initMessageSource方法" class="headerlink" title="initMessageSource方法"></a>initMessageSource方法</h2><p>在Spring容器中初始化一些国际化相关的属性。</p>
 <h2 id="initApplicationEventMulticaster方法"><a href="#initApplicationEventMulticaster方法" class="headerlink" title="initApplicationEventMulticaster方法"></a>initApplicationEventMulticaster方法</h2><p>在Spring容器中初始化事件广播器，事件广播器用于事件的发布。</p>
-<p>在<a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>中分析过，EventPublishingRunListener这个SpringApplicationRunListener会监听事件，其中发生contextPrepared事件的时候EventPublishingRunListener会把事件广播器注入到BeanFactory中。</p>
+<p>在<a href="http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>中分析过，EventPublishingRunListener这个SpringApplicationRunListener会监听事件，其中发生contextPrepared事件的时候EventPublishingRunListener会把事件广播器注入到BeanFactory中。</p>
 <p>所以initApplicationEventMulticaster不再需要再次注册，只需要拿出BeanFactory中的事件广播器然后设置到Spring容器的属性中即可。如果没有使用SpringBoot的话，Spring容器得需要自己初始化事件广播器。</p>
 <h2 id="onRefresh方法"><a href="#onRefresh方法" class="headerlink" title="onRefresh方法"></a>onRefresh方法</h2><p>一个模板方法，不同的Spring容器做不同的事情。</p>
 <p>比如web程序的容器AnnotationConfigEmbeddedWebApplicationContext中会调用createEmbeddedServletContainer方法去创建内置的Servlet容器。</p>
@@ -2028,7 +2028,7 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
 <p>这篇文章也是为之后的文章比如内置Servlet容器的创建启动、条件注解的使用等打下基础。</p>
 <h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>写了一个例子用来验证容器的refresh过程，包括bean解析，processor的使用、Lifecycle的使用等。</p>
 <p>可以启动项目debug去看看对应的过程，这样对Spring容器会有一个更好的理解。</p>
-<p>地址在：<a href="https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-refresh-context" target="_blank" rel="external">https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-refresh-context</a></p>
+<p>地址在：<a href="https://github.com/jianwensun/springboot-analysis/tree/master/springboot-refresh-context" target="_blank" rel="external">https://github.com/jianwensun/springboot-analysis/tree/master/springboot-refresh-context</a></p>
 ]]></content>
     
     <summary type="html">
@@ -2039,21 +2039,21 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot源码分析之SpringBoot的启动过程</title>
-    <link href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/"/>
-    <id>http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/</id>
+    <link href="http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/"/>
+    <id>http://jianwensun.github.io/2017/04/30/springboot-startup-analysis/</id>
     <published>2017-04-30T12:33:33.000Z</published>
     <updated>2017-05-31T13:20:59.000Z</updated>
     
@@ -2137,7 +2137,7 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
 <li>从Spring容器中找出ApplicationRunner和CommandLineRunner接口的实现类并排序后依次执行</li>
 </ol>
 <h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>写了一个例子用来验证分析的启动逻辑，包括自定义的初始化器、监听器、ApplicationRunner和CommandLineRunner。</p>
-<p>地址在：<a href="https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-startup" target="_blank" rel="external">https://github.com/fangjian0423/springboot-analysis/tree/master/springboot-startup</a></p>
+<p>地址在：<a href="https://github.com/jianwensun/springboot-analysis/tree/master/springboot-startup" target="_blank" rel="external">https://github.com/jianwensun/springboot-analysis/tree/master/springboot-startup</a></p>
 ]]></content>
     
     <summary type="html">
@@ -2150,21 +2150,21 @@ org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration -- O
     
     </summary>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/categories/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/categories/springboot/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
-      <category term="springboot源码分析" scheme="http://fangjian0423.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+      <category term="springboot源码分析" scheme="http://jianwensun.github.io/tags/springboot%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>记录自己理解的一些设计模式</title>
-    <link href="http://fangjian0423.github.io/2017/03/26/design-pattern/"/>
-    <id>http://fangjian0423.github.io/2017/03/26/design-pattern/</id>
+    <link href="http://jianwensun.github.io/2017/03/26/design-pattern/"/>
+    <id>http://jianwensun.github.io/2017/03/26/design-pattern/</id>
     <published>2017-03-26T07:33:29.000Z</published>
     <updated>2017-03-26T07:51:53.000Z</updated>
     
@@ -2253,7 +2253,7 @@ cacheProvider.create().save(new Object());
 RepositoryFactoryProvider fileProvider = new FileRepositoryFactory();
 fileProvider.create().save(new Object());
 </code></pre><p>抽象工厂把工厂也进行了抽象话，所以添加一个新的Repository的话，只需要新增一个RepositoryFactory即可，原有代码不需要修改。</p>
-<h2 id="装饰者模式"><a href="#装饰者模式" class="headerlink" title="装饰者模式"></a>装饰者模式</h2><p>装饰者模式的作用就在于它可以在不改变原有类的基础上动态地给类添加新的功能。之前写过一篇<a href="http://www.cnblogs.com/fangjian0423/p/mybatis-cache.html" target="_blank" rel="external">通过源码分析MyBatis的缓存</a>文章，mybatis中的query就是使用了装饰者设计模式。</p>
+<h2 id="装饰者模式"><a href="#装饰者模式" class="headerlink" title="装饰者模式"></a>装饰者模式</h2><p>装饰者模式的作用就在于它可以在不改变原有类的基础上动态地给类添加新的功能。之前写过一篇<a href="http://www.cnblogs.com/jianwensun/p/mybatis-cache.html" target="_blank" rel="external">通过源码分析MyBatis的缓存</a>文章，mybatis中的query就是使用了装饰者设计模式。</p>
 <p>用一段简单的代码来模拟一下mybatis中query的实现原理：</p>
 <pre><code>@Data
 @AllArgsConstructor
@@ -2350,7 +2350,7 @@ class UserInvocationHandler implements InvocationHandler {
 UserInvocationHandler uih = new UserInvocationHandler(userService);
 IUserService proxy = (IUserService) Proxy.newProxyInstance(userService.getClass().getClassLoader(), new Class[] {IUserService.class}, uih);
 proxy.printAll(); // 打印出start : 1489665566456  print all users  end : 1489665566457
-</code></pre><h2 id="组合模式"><a href="#组合模式" class="headerlink" title="组合模式"></a>组合模式</h2><p>组合模式经常跟策略模式配合使用，用来组合所有的策略，并遍历这些策略找出满足条件的策略。之前写过一篇<a href="http://www.cnblogs.com/fangjian0423/p/springMVC-xml-json-convert.html" target="_blank" rel="external">SpringMVC关于json、xml自动转换的原理研究</a>文章，里面springmvc把返回的返回值映射给用户的response做了一层抽象，封装到了HandlerMethodReturnValueHandler策略接口中。</p>
+</code></pre><h2 id="组合模式"><a href="#组合模式" class="headerlink" title="组合模式"></a>组合模式</h2><p>组合模式经常跟策略模式配合使用，用来组合所有的策略，并遍历这些策略找出满足条件的策略。之前写过一篇<a href="http://www.cnblogs.com/jianwensun/p/springMVC-xml-json-convert.html" target="_blank" rel="external">SpringMVC关于json、xml自动转换的原理研究</a>文章，里面springmvc把返回的返回值映射给用户的response做了一层抽象，封装到了HandlerMethodReturnValueHandler策略接口中。</p>
 <p>在HandlerMethodReturnValueHandlerComposite类中，使用存在的HandlerMethodReturnValueHandler对返回值进行处理，在HandlerMethodReturnValueHandlerComposite内部的代码如下：</p>
 <pre><code>// 策略集合
 private final List&lt;HandlerMethodReturnValueHandler&gt; returnValueHandlers = new ArrayList&lt;HandlerMethodReturnValueHandler&gt;();
@@ -2496,19 +2496,19 @@ targetable.newMethod(); // new method
     
     </summary>
     
-      <category term="architecture" scheme="http://fangjian0423.github.io/categories/architecture/"/>
+      <category term="architecture" scheme="http://jianwensun.github.io/categories/architecture/"/>
     
     
-      <category term="java" scheme="http://fangjian0423.github.io/tags/java/"/>
+      <category term="java" scheme="http://jianwensun.github.io/tags/java/"/>
     
-      <category term="architecture" scheme="http://fangjian0423.github.io/tags/architecture/"/>
+      <category term="architecture" scheme="http://jianwensun.github.io/tags/architecture/"/>
     
   </entry>
   
   <entry>
     <title>SpringCloud网关服务zuul介绍</title>
-    <link href="http://fangjian0423.github.io/2017/02/22/springcloud-zuul/"/>
-    <id>http://fangjian0423.github.io/2017/02/22/springcloud-zuul/</id>
+    <link href="http://jianwensun.github.io/2017/02/22/springcloud-zuul/"/>
+    <id>http://jianwensun.github.io/2017/02/22/springcloud-zuul/</id>
     <published>2017-02-22T13:33:22.000Z</published>
     <updated>2017-05-31T13:55:15.000Z</updated>
     
@@ -2834,19 +2834,19 @@ public boolean shouldFilter() {
     
     </summary>
     
-      <category term="springcloud" scheme="http://fangjian0423.github.io/categories/springcloud/"/>
+      <category term="springcloud" scheme="http://jianwensun.github.io/categories/springcloud/"/>
     
     
-      <category term="springcloud" scheme="http://fangjian0423.github.io/tags/springcloud/"/>
+      <category term="springcloud" scheme="http://jianwensun.github.io/tags/springcloud/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   
   <entry>
     <title>SpringCloud使用Hystrix实现断路器</title>
-    <link href="http://fangjian0423.github.io/2017/02/19/springcloud-hystrix/"/>
-    <id>http://fangjian0423.github.io/2017/02/19/springcloud-hystrix/</id>
+    <link href="http://jianwensun.github.io/2017/02/19/springcloud-hystrix/"/>
+    <id>http://jianwensun.github.io/2017/02/19/springcloud-hystrix/</id>
     <published>2017-02-19T04:11:39.000Z</published>
     <updated>2017-02-21T08:09:52.000Z</updated>
     
@@ -2918,7 +2918,7 @@ public @interface EnableCircuitBreaker {
     }
 
 }
-</code></pre><p>在之前的这篇<a href="http://fangjian0423.github.io/2016/11/13/springboot-enable-annotation/">SpringBoot自动化配置的注解开关原理</a>文章中分析过selector的原理，这个EnableCircuitBreakerImportSelector会加载spring.factories属性文件中key为org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker的类：</p>
+</code></pre><p>在之前的这篇<a href="http://jianwensun.github.io/2016/11/13/springboot-enable-annotation/">SpringBoot自动化配置的注解开关原理</a>文章中分析过selector的原理，这个EnableCircuitBreakerImportSelector会加载spring.factories属性文件中key为org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker的类：</p>
 <pre><code>org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker=\
     org.springframework.cloud.netflix.hystrix.HystrixCircuitBreakerConfiguration
 </code></pre><p>会加载HystrixCircuitBreakerConfiguration这个配置类。</p>
@@ -3022,12 +3022,12 @@ public HystrixCommandAspect hystrixCommandAspect() {
     
     </summary>
     
-      <category term="springcloud" scheme="http://fangjian0423.github.io/categories/springcloud/"/>
+      <category term="springcloud" scheme="http://jianwensun.github.io/categories/springcloud/"/>
     
     
-      <category term="springcloud" scheme="http://fangjian0423.github.io/tags/springcloud/"/>
+      <category term="springcloud" scheme="http://jianwensun.github.io/tags/springcloud/"/>
     
-      <category term="springboot" scheme="http://fangjian0423.github.io/tags/springboot/"/>
+      <category term="springboot" scheme="http://jianwensun.github.io/tags/springboot/"/>
     
   </entry>
   

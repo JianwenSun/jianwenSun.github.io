@@ -86,15 +86,15 @@
 
 
 
-<meta name="description" content="吃饭睡觉撸代码">
+<meta name="description" content="不一样的自己">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Format's Notes">
-<meta property="og:url" content="http://fangjian0423.github.io/page/3/index.html">
+<meta property="og:url" content="http://jianwensun.github.io/page/3/index.html">
 <meta property="og:site_name" content="Format's Notes">
-<meta property="og:description" content="吃饭睡觉撸代码">
+<meta property="og:description" content="不一样的自己">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Format's Notes">
-<meta name="twitter:description" content="吃饭睡觉撸代码">
+<meta name="twitter:description" content="不一样的自己">
 
 
 
@@ -172,7 +172,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">吃饭睡觉撸代码</p>
+  <p class="site-subtitle">不一样的自己</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -663,7 +663,7 @@
 
       
         
-          <p>在之前的文章中，我们分析过SpringBoot内部的<a href="http://fangjian0423.github.io/2016/06/12/springboot-autoconfig-analysis/">自动化配置原理</a>和<a href="http://fangjian0423.github.io/2016/11/13/springboot-enable-annotation/">自动化配置注解开关原理</a>。</p>
+          <p>在之前的文章中，我们分析过SpringBoot内部的<a href="http://jianwensun.github.io/2016/06/12/springboot-autoconfig-analysis/">自动化配置原理</a>和<a href="http://jianwensun.github.io/2016/11/13/springboot-enable-annotation/">自动化配置注解开关原理</a>。</p>
 <p>我们先简单分析一下<a href="https://github.com/mybatis/spring-boot-starter">mybatis starter</a>的编写，然后再编写自定义的starter。</p>
 <p>mybatis中的autoconfigure模块中使用了一个叫做MybatisAutoConfiguration的自动化配置类。</p>
 <p>这个MybatisAutoConfiguration需要在这些Condition条件下才会执行：</p>
@@ -817,7 +817,7 @@ org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration
 
       
         
-          <p>在之前我们分析<a href="http://fangjian0423.github.io/2016/06/12/springboot-autoconfig-analysis/">SpringBoot的自动化配置原理</a>的时候，分析了freemarker的自动化配置类FreeMarkerAutoConfiguration，这个自动化配置类需要classloader中的一些类需要存在并且在其他的一些配置类之后进行加载。</p>
+          <p>在之前我们分析<a href="http://jianwensun.github.io/2016/06/12/springboot-autoconfig-analysis/">SpringBoot的自动化配置原理</a>的时候，分析了freemarker的自动化配置类FreeMarkerAutoConfiguration，这个自动化配置类需要classloader中的一些类需要存在并且在其他的一些配置类之后进行加载。</p>
 <p>但是还存在一些自动化配置类，它们需要在使用一些注解开关的情况下才会生效。比如spring-boot-starter-batch里的@EnableBatchProcessing注解、@EnableCaching等。</p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/11/13/springboot-enable-annotation/#more" rel="contents">
@@ -1388,7 +1388,7 @@ libraryDependencies += &quot;io.springfox&quot; % &quot;springfox-swagger-ui&quo
       
         
           <p>Springboot内部提供的事务管理器是根据autoconfigure来进行决定的。</p>
-<p>比如当使用jpa的时候，也就是pom中加入了spring-boot-starter-data-jpa这个starter之后(之前我们分析过<a href="http://fangjian0423.github.io/2016/06/12/springboot-autoconfig-analysis/">springboot的自动化配置原理</a>)。</p>
+<p>比如当使用jpa的时候，也就是pom中加入了spring-boot-starter-data-jpa这个starter之后(之前我们分析过<a href="http://jianwensun.github.io/2016/06/12/springboot-autoconfig-analysis/">springboot的自动化配置原理</a>)。</p>
 <p>Springboot会构造一个JpaTransactionManager这个事务管理器。</p>
 <p>而当我们使用spring-boot-starter-jdbc的时候，构造的事务管理器则是DataSourceTransactionManager。</p>
 <p>这2个事务管理器都实现了spring中提供的PlatformTransactionManager接口，这个接口是spring的事务核心接口。</p>
@@ -1753,7 +1753,7 @@ libraryDependencies += &quot;io.springfox&quot; % &quot;springfox-swagger-ui&quo
                src="http://7x2wh6.com1.z0.glb.clouddn.com/avatar.jpg"
                alt="Format" />
           <p class="site-author-name" itemprop="name">Format</p>
-          <p class="site-description motion-element" itemprop="description">吃饭睡觉撸代码</p>
+          <p class="site-description motion-element" itemprop="description">不一样的自己</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -1796,7 +1796,7 @@ libraryDependencies += &quot;io.springfox&quot; % &quot;springfox-swagger-ui&quo
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/fangjian0423" target="_blank" title="GitHub">
+                <a href="https://github.com/jianwensun" target="_blank" title="GitHub">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
@@ -1805,7 +1805,7 @@ libraryDependencies += &quot;io.springfox&quot; % &quot;springfox-swagger-ui&quo
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://twitter.com/fangjian0423" target="_blank" title="Twitter">
+                <a href="https://twitter.com/jianwensun" target="_blank" title="Twitter">
                   
                     <i class="fa fa-fw fa-twitter"></i>
                   
@@ -1985,7 +1985,7 @@ libraryDependencies += &quot;io.springfox&quot; % &quot;springfox-swagger-ui&quo
   
 
     <script type="text/javascript">
-      var disqus_shortname = 'fangjian0423';
+      var disqus_shortname = 'jianwensun';
       var disqus_identifier = 'page/3/index.html';
       var disqus_title = "";
       var disqus_url = '';
