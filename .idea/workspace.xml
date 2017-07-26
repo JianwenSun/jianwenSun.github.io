@@ -2,152 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2785f8-e274-49e9-8ef0-f97f9806a7dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" afterPath="$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/01/index.html" afterPath="$PROJECT_DIR$/archives/2017/01/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/02/index.html" afterPath="$PROJECT_DIR$/archives/2017/02/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/03/index.html" afterPath="$PROJECT_DIR$/archives/2017/03/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/04/index.html" afterPath="$PROJECT_DIR$/archives/2017/04/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/05/index.html" afterPath="$PROJECT_DIR$/archives/2017/05/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/06/index.html" afterPath="$PROJECT_DIR$/archives/2017/06/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/07/index.html" afterPath="$PROJECT_DIR$/archives/2017/07/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/index.html" afterPath="$PROJECT_DIR$/archives/2017/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2017/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2017/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/10/index.html" afterPath="$PROJECT_DIR$/archives/page/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/11/index.html" afterPath="$PROJECT_DIR$/archives/page/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/12/index.html" afterPath="$PROJECT_DIR$/archives/page/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/2/index.html" afterPath="$PROJECT_DIR$/archives/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/3/index.html" afterPath="$PROJECT_DIR$/archives/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/4/index.html" afterPath="$PROJECT_DIR$/archives/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/5/index.html" afterPath="$PROJECT_DIR$/archives/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/6/index.html" afterPath="$PROJECT_DIR$/archives/page/6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/7/index.html" afterPath="$PROJECT_DIR$/archives/page/7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/8/index.html" afterPath="$PROJECT_DIR$/archives/page/8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/9/index.html" afterPath="$PROJECT_DIR$/archives/page/9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atom.xml" afterPath="$PROJECT_DIR$/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/algorithm/index.html" afterPath="$PROJECT_DIR$/categories/algorithm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/architecture/index.html" afterPath="$PROJECT_DIR$/categories/architecture/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/avro/index.html" afterPath="$PROJECT_DIR$/categories/avro/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/bootstrap/index.html" afterPath="$PROJECT_DIR$/categories/bootstrap/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/cache/index.html" afterPath="$PROJECT_DIR$/categories/cache/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/css/index.html" afterPath="$PROJECT_DIR$/categories/css/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/elasticsearch/index.html" afterPath="$PROJECT_DIR$/categories/elasticsearch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/flume/index.html" afterPath="$PROJECT_DIR$/categories/flume/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/groovy/index.html" afterPath="$PROJECT_DIR$/categories/groovy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/hbase/index.html" afterPath="$PROJECT_DIR$/categories/hbase/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/hhkb/index.html" afterPath="$PROJECT_DIR$/categories/hhkb/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/hive/index.html" afterPath="$PROJECT_DIR$/categories/hive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/index.html" afterPath="$PROJECT_DIR$/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/index.html" afterPath="$PROJECT_DIR$/categories/java/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/java/page/2/index.html" afterPath="$PROJECT_DIR$/categories/java/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/javascript/index.html" afterPath="$PROJECT_DIR$/categories/javascript/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/jdk/index.html" afterPath="$PROJECT_DIR$/categories/jdk/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/kafka/index.html" afterPath="$PROJECT_DIR$/categories/kafka/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/mybatis/index.html" afterPath="$PROJECT_DIR$/categories/mybatis/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/mysql/index.html" afterPath="$PROJECT_DIR$/categories/mysql/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/netty/index.html" afterPath="$PROJECT_DIR$/categories/netty/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/scala/index.html" afterPath="$PROJECT_DIR$/categories/scala/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/scala/page/2/index.html" afterPath="$PROJECT_DIR$/categories/scala/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/spark/index.html" afterPath="$PROJECT_DIR$/categories/spark/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/spring/index.html" afterPath="$PROJECT_DIR$/categories/spring/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/springboot/index.html" afterPath="$PROJECT_DIR$/categories/springboot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/springboot/page/2/index.html" afterPath="$PROJECT_DIR$/categories/springboot/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/springboot/page/3/index.html" afterPath="$PROJECT_DIR$/categories/springboot/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/springcloud/index.html" afterPath="$PROJECT_DIR$/categories/springcloud/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/总结/index.html" afterPath="$PROJECT_DIR$/categories/总结/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/杂事/index.html" afterPath="$PROJECT_DIR$/categories/杂事/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content.json" afterPath="$PROJECT_DIR$/content.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/10/index.html" afterPath="$PROJECT_DIR$/page/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/11/index.html" afterPath="$PROJECT_DIR$/page/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/12/index.html" afterPath="$PROJECT_DIR$/page/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="$PROJECT_DIR$/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="$PROJECT_DIR$/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="$PROJECT_DIR$/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/5/index.html" afterPath="$PROJECT_DIR$/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/6/index.html" afterPath="$PROJECT_DIR$/page/6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/7/index.html" afterPath="$PROJECT_DIR$/page/7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/8/index.html" afterPath="$PROJECT_DIR$/page/8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/9/index.html" afterPath="$PROJECT_DIR$/page/9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.xml" afterPath="$PROJECT_DIR$/search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/Hexo/index.html" afterPath="$PROJECT_DIR$/tags/Hexo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/Idea/index.html" afterPath="$PROJECT_DIR$/tags/Idea/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/Intellij/index.html" afterPath="$PROJECT_DIR$/tags/Intellij/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/Tinny/index.html" afterPath="$PROJECT_DIR$/tags/Tinny/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/UML/index.html" afterPath="$PROJECT_DIR$/tags/UML/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/algorithm/index.html" afterPath="$PROJECT_DIR$/tags/algorithm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/architecture/index.html" afterPath="$PROJECT_DIR$/tags/architecture/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/avro/index.html" afterPath="$PROJECT_DIR$/tags/avro/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/backbone/index.html" afterPath="$PROJECT_DIR$/tags/backbone/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/big-data/index.html" afterPath="$PROJECT_DIR$/tags/big-data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/big-data/page/2/index.html" afterPath="$PROJECT_DIR$/tags/big-data/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/bootstrap/index.html" afterPath="$PROJECT_DIR$/tags/bootstrap/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/boxmodel/index.html" afterPath="$PROJECT_DIR$/tags/boxmodel/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/cache/index.html" afterPath="$PROJECT_DIR$/tags/cache/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/cglib/index.html" afterPath="$PROJECT_DIR$/tags/cglib/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/collection/index.html" afterPath="$PROJECT_DIR$/tags/collection/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/concurrent/index.html" afterPath="$PROJECT_DIR$/tags/concurrent/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/css/index.html" afterPath="$PROJECT_DIR$/tags/css/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/dom/index.html" afterPath="$PROJECT_DIR$/tags/dom/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/duoshuo/index.html" afterPath="$PROJECT_DIR$/tags/duoshuo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/elasticsearch/index.html" afterPath="$PROJECT_DIR$/tags/elasticsearch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/flume/index.html" afterPath="$PROJECT_DIR$/tags/flume/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/frm/index.html" afterPath="$PROJECT_DIR$/tags/frm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/groovy/index.html" afterPath="$PROJECT_DIR$/tags/groovy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/guava/index.html" afterPath="$PROJECT_DIR$/tags/guava/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/hbase/index.html" afterPath="$PROJECT_DIR$/tags/hbase/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/hhkb/index.html" afterPath="$PROJECT_DIR$/tags/hhkb/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/hive/index.html" afterPath="$PROJECT_DIR$/tags/hive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/html/index.html" afterPath="$PROJECT_DIR$/tags/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/index.html" afterPath="$PROJECT_DIR$/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/index.html" afterPath="$PROJECT_DIR$/tags/java/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/2/index.html" afterPath="$PROJECT_DIR$/tags/java/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/3/index.html" afterPath="$PROJECT_DIR$/tags/java/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/java/page/4/index.html" afterPath="$PROJECT_DIR$/tags/java/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/javascript/index.html" afterPath="$PROJECT_DIR$/tags/javascript/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/index.html" afterPath="$PROJECT_DIR$/tags/jdk/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jdk/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jdk/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/index.html" afterPath="$PROJECT_DIR$/tags/jvm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/jvm/page/2/index.html" afterPath="$PROJECT_DIR$/tags/jvm/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/keyboard/index.html" afterPath="$PROJECT_DIR$/tags/keyboard/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/kibana/index.html" afterPath="$PROJECT_DIR$/tags/kibana/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/life/index.html" afterPath="$PROJECT_DIR$/tags/life/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/log/index.html" afterPath="$PROJECT_DIR$/tags/log/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/logstash/index.html" afterPath="$PROJECT_DIR$/tags/logstash/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/mac/index.html" afterPath="$PROJECT_DIR$/tags/mac/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/map/index.html" afterPath="$PROJECT_DIR$/tags/map/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/microservice/index.html" afterPath="$PROJECT_DIR$/tags/microservice/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/mybatis/index.html" afterPath="$PROJECT_DIR$/tags/mybatis/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/mysql/index.html" afterPath="$PROJECT_DIR$/tags/mysql/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/netty/index.html" afterPath="$PROJECT_DIR$/tags/netty/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/nio/index.html" afterPath="$PROJECT_DIR$/tags/nio/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/orm/index.html" afterPath="$PROJECT_DIR$/tags/orm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/playframework/index.html" afterPath="$PROJECT_DIR$/tags/playframework/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/proxy/index.html" afterPath="$PROJECT_DIR$/tags/proxy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/queue/index.html" afterPath="$PROJECT_DIR$/tags/queue/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/redis/index.html" afterPath="$PROJECT_DIR$/tags/redis/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/scala/index.html" afterPath="$PROJECT_DIR$/tags/scala/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/scala/page/2/index.html" afterPath="$PROJECT_DIR$/tags/scala/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/set/index.html" afterPath="$PROJECT_DIR$/tags/set/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/spark/index.html" afterPath="$PROJECT_DIR$/tags/spark/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/spring/index.html" afterPath="$PROJECT_DIR$/tags/spring/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springbatch/index.html" afterPath="$PROJECT_DIR$/tags/springbatch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springboot/index.html" afterPath="$PROJECT_DIR$/tags/springboot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springboot/page/2/index.html" afterPath="$PROJECT_DIR$/tags/springboot/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springboot/page/3/index.html" afterPath="$PROJECT_DIR$/tags/springboot/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springboot源码分析/index.html" afterPath="$PROJECT_DIR$/tags/springboot源码分析/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springcloud/index.html" afterPath="$PROJECT_DIR$/tags/springcloud/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/springmvc/index.html" afterPath="$PROJECT_DIR$/tags/springmvc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/svn/index.html" afterPath="$PROJECT_DIR$/tags/svn/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/swagger/index.html" afterPath="$PROJECT_DIR$/tags/swagger/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/thread/index.html" afterPath="$PROJECT_DIR$/tags/thread/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/threadlocal/index.html" afterPath="$PROJECT_DIR$/tags/threadlocal/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/总结/index.html" afterPath="$PROJECT_DIR$/tags/总结/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/杂事/index.html" afterPath="$PROJECT_DIR$/tags/杂事/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/avro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/bootstrap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/elasticsearch/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/flume/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hbase/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hhkb/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/hive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/mybatis/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/mysql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/netty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/scala/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/scala/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/spark/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/spring/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springboot/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/springcloud/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/总结/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories/杂事/index.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,8 +69,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="95" column="40" lean-forward="false" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+            <state relative-caret-position="549">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,6 +82,7 @@
     <findStrings>
       <find>吃饭睡觉撸代码</find>
       <find>fangjian0423</find>
+      <find>Format</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -307,24 +185,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianwenSun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianwenSun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +611,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -768,7 +627,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2017/07/24/es-cluster-notes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="95" column="40" lean-forward="false" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+        <state relative-caret-position="549">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
