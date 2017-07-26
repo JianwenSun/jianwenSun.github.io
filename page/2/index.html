@@ -89,7 +89,7 @@
 <meta name="description" content="吃饭睡觉撸代码">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Format's Notes">
-<meta property="og:url" content="http://fangjian0423.github.io/index.html">
+<meta property="og:url" content="http://fangjian0423.github.io/page/2/index.html">
 <meta property="og:site_name" content="Format's Notes">
 <meta property="og:description" content="吃饭睡觉撸代码">
 <meta name="twitter:card" content="summary">
@@ -288,10 +288,8 @@
   
   
   
-    
-  
 
-  <article class="post post-type-normal  post-sticky" itemscope itemtype="//schema.org/Article">
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
 
     
       <header class="post-header">
@@ -303,12 +301,8 @@
             
               
                 
-                  <span class="post-sticky-flag" title="置顶">
-                    <i class="fa fa-thumb-tack"></i>
-                  </span>
-                
-                <a class="post-title-link" href="/2017/06/05/springboot-source-analysis-summary/" itemprop="url">
-                  SpringBoot源码分析系列
+                <a class="post-title-link" href="/2017/06/02/spring-data-es-analysis/" itemprop="url">
+                  SpringData ES中一些底层原理的分析
                 </a>
               
             
@@ -321,8 +315,149 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-05T19:40:30+08:00" content="2017-06-05">
-              2017-06-05
+            <time itemprop="dateCreated" datetime="2017-06-02T20:33:33+08:00" content="2017-06-02">
+              2017-06-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index">
+                    <span itemprop="name">java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/06/02/spring-data-es-analysis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/02/spring-data-es-analysis/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/06/02/spring-data-es-analysis/" class="leancloud_visitors" data-flag-title="SpringData ES中一些底层原理的分析">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>之前写过一篇<a href="http://fangjian0423.github.io/2017/05/24/spring-data-es-query-problem/">SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题</a>，顺便深入学习下Spring Data Elasticsearch。</p>
+<p><a href="https://github.com/spring-projects/spring-data-elasticsearch">Spring Data Elasticsearch</a>是<a href="http://projects.spring.io/spring-data/">Spring Data</a>针对Elasticsearch的实现。</p>
+<p>它跟Spring Data一样，提供了Repository接口，我们只需要定义一个新的接口并继承这个Repository接口，然后就可以注入这个新的接口使用了。</p>
+<p>定义接口：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Repository</span></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">TaskRepository</span> <span class="keyword">extends</span> <span class="title">ElasticsearchRepository</span>&lt;<span class="title">Task</span>, <span class="title">String</span>&gt; </span>&#123; &#125;</div></pre></td></tr></table></figure>
+<p>注入接口进行使用：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Autowired</span></div><div class="line"><span class="keyword">private</span> TaskRepository taskRepository;</div><div class="line"></div><div class="line">....</div><div class="line">taskRepository.save(task);</div></pre></td></tr></table></figure>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/06/02/spring-data-es-analysis/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/31/springboot-executable-jar/" itemprop="url">
+                  SpringBoot源码分析之SpringBoot可执行文件解析
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-05-31T20:33:33+08:00" content="2017-05-31">
+              2017-05-31
             </time>
           </span>
 
@@ -351,8 +486,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/05/springboot-source-analysis-summary/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/springboot-source-analysis-summary/" itemprop="commentsCount"></span>
+                <a href="/2017/05/31/springboot-executable-jar/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/31/springboot-executable-jar/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -362,7 +497,7 @@
 
           
           
-             <span id="/2017/06/05/springboot-source-analysis-summary/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析系列">
+             <span id="/2017/05/31/springboot-executable-jar/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之SpringBoot可执行文件解析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -385,447 +520,1010 @@
 
       
         
+          <p>SpringBoot提供了一个插件spring-boot-maven-plugin用于把程序打包成一个可执行的jar包。在pom文件里加入这个插件即可：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-maven-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>打包完生成的executable-jar-1.0-SNAPSHOT.jar内部的结构如下：</p>
+<pre><code>├── META-INF
+│   ├── MANIFEST.MF
+│   └── maven
+│       └── spring.study
+│           └── executable-jar
+│               ├── pom.properties
+│               └── pom.xml
+├── lib
+│   ├── aopalliance-1.0.jar
+│   ├── classmate-1.1.0.jar
+│   ├── spring-boot-1.3.5.RELEASE.jar
+│   ├── spring-boot-autoconfigure-1.3.5.RELEASE.jar
+│   ├── ...
+├── org
+│   └── springframework
+│       └── boot
+│           └── loader
+│               ├── ExecutableArchiveLauncher$1.class
+│               ├── ...
+└── spring
+    └── study
+        └── executablejar
+            └── ExecutableJarApplication.class
+</code></pre><p>然后可以直接执行jar包就能启动程序了：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">java -jar executable-jar-1.0-SNAPSHOT.jar</div></pre></td></tr></table></figure>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/05/31/springboot-executable-jar/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/24/spring-data-es-query-problem/" itemprop="url">
+                  SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-05-24T00:33:33+08:00" content="2017-05-24">
+              2017-05-24
+            </time>
+          </span>
+
           
-            <p>自己总结和学习的SpringBoot源码，包括一些例子代码和文章。</p>
-<p>本系列不涉及SpringBoot的入门，主要针对想深入学习SpringBoot的读者。</p>
-<p>目前已经有的文章：</p>
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index">
+                    <span itemprop="name">java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/05/24/spring-data-es-query-problem/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/24/spring-data-es-query-problem/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/05/24/spring-data-es-query-problem/" class="leancloud_visitors" data-flag-title="SpringData ES 关于字段名和索引中的列名字不一致导致的查询问题">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>最近工作中使用了<a href="https://github.com/spring-projects/spring-data-elasticsearch">Spring Data Elasticsearch</a>。发生它存在一个问题：</p>
+<p><strong>Document对应的POJO的属性跟es里面文档的字段名字不一样，这样Repository里面编写自定义的查询方法就会查询不出结果。</strong></p>
+<p>比如有个Person类，它有2个属性goodFace和goodAt。这2个属性在es的索引里对应的字段表为good_face和good_at：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Document</span>(replicas = <span class="number">1</span>, shards = <span class="number">1</span>, type = <span class="string">"person"</span>, indexName = <span class="string">"person"</span>)</div><div class="line"><span class="meta">@Getter</span></div><div class="line"><span class="meta">@Setter</span></div><div class="line"><span class="meta">@JsonNaming</span>(PropertyNamingStrategy.SnakeCaseStrategy.class)</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123;</div><div class="line">    <span class="meta">@Id</span></div><div class="line">    <span class="keyword">private</span> String id;</div><div class="line">    <span class="keyword">private</span> String name;</div><div class="line">    <span class="keyword">private</span> <span class="keyword">boolean</span> goodFace;</div><div class="line">    <span class="keyword">private</span> String goodAt;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Repository中的自定义查询：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Repository</span></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">PersonRepository</span> <span class="keyword">extends</span> <span class="title">ElasticsearchRepository</span>&lt;<span class="title">Person</span>, <span class="title">String</span>&gt; </span>&#123;</div><div class="line">    <span class="function">List&lt;Person&gt; <span class="title">findByGoodFace</span><span class="params">(<span class="keyword">boolean</span> isGoodFace)</span></span>;</div><div class="line">    <span class="function">List&lt;Person&gt; <span class="title">findByName</span><span class="params">(String name)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>方法findByGoodFace是查询不出结果的，而findByName是ok的。</p>
+<p>为什么findByGoodFace不行而findByName可以呢，来探究一下。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/05/24/spring-data-es-query-problem/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/22/springboot-embedded-servlet-container/" itemprop="url">
+                  SpringBoot源码分析之内置Servlet容器
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-05-22T18:35:36+08:00" content="2017-05-22">
+              2017-05-22
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/springboot/" itemprop="url" rel="index">
+                    <span itemprop="name">springboot</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/05/22/springboot-embedded-servlet-container/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/22/springboot-embedded-servlet-container/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/05/22/springboot-embedded-servlet-container/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之内置Servlet容器">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>SpringBoot内置了Servlet容器，这样项目的发布、部署就不需要额外的Servlet容器，直接启动jar包即可。SpringBoot官方文档上有一个小章节<a href="https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-embedded-container">内置servlet容器支持</a>用于说明内置Servlet的相关问题。</p>
+<p>在<a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a>文章中我们了解到如果是Web程序，那么会构造AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器，在<a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a>文章中我们知道AnnotationConfigEmbeddedWebApplicationContext类型的Spring容器在refresh的过程中会在onRefresh方法中创建内置的Servlet容器。</p>
+<p>接下来，我们分析一下内置的Servlet容器相关的知识点。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/05/22/springboot-embedded-servlet-container/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/16/springboot-condition-annotation/" itemprop="url">
+                  SpringBoot源码分析之条件注解的底层实现
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-05-16T19:40:13+08:00" content="2017-05-16">
+              2017-05-16
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/springboot/" itemprop="url" rel="index">
+                    <span itemprop="name">springboot</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/05/16/springboot-condition-annotation/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/16/springboot-condition-annotation/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/05/16/springboot-condition-annotation/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之条件注解的底层实现">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>SpringBoot内部提供了特有的注解：条件注解(Conditional Annotation)。比如@ConditionalOnBean、@ConditionalOnClass、@ConditionalOnExpression、@ConditionalOnMissingBean等。</p>
+<p>条件注解存在的意义在于动态识别(也可以说是代码自动化执行)。比如@ConditionalOnClass会检查类加载器中是否存在对应的类，如果有的话被注解修饰的类就有资格被Spring容器所注册，否则会被skip。</p>
+<p>比如FreemarkerAutoConfiguration这个自动化配置类的定义如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Configuration</span></div><div class="line"><span class="meta">@ConditionalOnClass</span>(&#123; freemarker.template.Configuration.class,</div><div class="line">		FreeMarkerConfigurationFactory.class &#125;)</div><div class="line"><span class="meta">@AutoConfigureAfter</span>(WebMvcAutoConfiguration.class)</div><div class="line"><span class="meta">@EnableConfigurationProperties</span>(FreeMarkerProperties.class)</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FreeMarkerAutoConfiguration</span></span></div></pre></td></tr></table></figure>
+<p>这个自动化配置类被@ConditionalOnClass条件注解修饰，这个条件注解存在的意义在于判断类加载器中是否存在freemarker.template.Configuration和FreeMarkerConfigurationFactory这两个类，如果都存在的话会在Spring容器中加载这个FreeMarkerAutoConfiguration配置类；否则不会加载。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/05/16/springboot-condition-annotation/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/10/springboot-context-refresh/" itemprop="url">
+                  SpringBoot源码分析之Spring容器的refresh过程
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-05-10T19:55:21+08:00" content="2017-05-10">
+              2017-05-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/springboot/" itemprop="url" rel="index">
+                    <span itemprop="name">springboot</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/05/10/springboot-context-refresh/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/10/springboot-context-refresh/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/05/10/springboot-context-refresh/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之Spring容器的refresh过程">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>上一篇文章中，我们分析了SpringBoot的启动过程：构造SpringApplication并调用它的run方法。其中构造SpringApplication的时候会初始化一些监听器和初始化器；run方法调用的过程中会有对应的监听器监听，并且会创建Spring容器。</p>
+<p>Spring容器创建之后，会调用它的refresh方法，refresh的时候会做很多事情：比如完成配置类的解析、各种BeanFactoryPostProcessor和BeanPostProcessor的注册、国际化配置的初始化、web内置容器的构造等等。</p>
+<p>我们来分析一下这个refresh过程。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/05/10/springboot-context-refresh/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/30/springboot-startup-analysis/" itemprop="url">
+                  SpringBoot源码分析之SpringBoot的启动过程
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-04-30T20:33:33+08:00" content="2017-04-30">
+              2017-04-30
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/springboot/" itemprop="url" rel="index">
+                    <span itemprop="name">springboot</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/04/30/springboot-startup-analysis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/30/springboot-startup-analysis/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/04/30/springboot-startup-analysis/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之SpringBoot的启动过程">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>SpringBoot的启动很简单，代码如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@SpringBootApplication</span></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyApplication</span> </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">        SpringApplication.run(MyApplication.class, args);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>从代码上可以看出，调用了SpringApplication的静态方法run。这个run方法会构造一个SpringApplication的实例，然后再调用这里实例的run方法就表示启动SpringBoot。</p>
+<p>因此，想要分析SpringBoot的启动过程，我们需要熟悉SpringApplication的构造过程以及SpringApplication的run方法执行过程即可。</p>
+<p>我们以上述这段代码为例，分析SpringBoot的启动过程。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/04/30/springboot-startup-analysis/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/03/26/design-pattern/" itemprop="url">
+                  记录自己理解的一些设计模式
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-03-26T15:33:29+08:00" content="2017-03-26">
+              2017-03-26
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/architecture/" itemprop="url" rel="index">
+                    <span itemprop="name">architecture</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/03/26/design-pattern/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/26/design-pattern/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/03/26/design-pattern/" class="leancloud_visitors" data-flag-title="记录自己理解的一些设计模式">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>记录一下自己理解的一些设计模式，并尽量使用表达清楚的例子进行讲解。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2017/03/26/design-pattern/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/02/22/springcloud-zuul/" itemprop="url">
+                  SpringCloud网关服务zuul介绍
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-02-22T21:33:22+08:00" content="2017-02-22">
+              2017-02-22
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/springcloud/" itemprop="url" rel="index">
+                    <span itemprop="name">springcloud</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/02/22/springcloud-zuul/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/02/22/springcloud-zuul/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/02/22/springcloud-zuul/" class="leancloud_visitors" data-flag-title="SpringCloud网关服务zuul介绍">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><a href="https://github.com/Netflix/zuul">Zuul</a>是Netflix开发的一款提供动态路由、监控、弹性、安全的网关服务。</p>
+<p>使用Zuul网关服务带来的好处是统一向外系统提供REST API，并额外提供了权限控制、负载均衡等功能，并且这些功能是从原先的服务中抽离出来并单独存在的。</p>
+<p>Zuul提供了不同类型的filter用于处理请求，这些filter可以让我们实现以下功能：</p>
 <ol>
-<li><a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/16/springboot-condition-annotation/">SpringBoot源码分析之条件注解的底层实现</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/22/springboot-embedded-servlet-container/">SpringBoot源码分析之内置Servlet容器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/31/springboot-executable-jar/">SpringBoot源码分析之SpringBoot可执行文件解析</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism">SpringBoot源码分析之工厂加载机制</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/10/springboot-environment-analysis">SpringBoot源码分析之配置环境的构造过程</a></li>
-</ol>
-<p>另外也会写一些Spring和SpringBoot相关的文章。</p>
-<p>Spring：</p>
-<ol>
-<li><a href="http://fangjian0423.github.io/2017/06/11/spring-custom-component-provider/">Spring自定义类扫描器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/15/spring-bean-register-note/">Spring类注册笔记</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/">Spring内部的BeanPostProcessor接口总结</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/24/spring-embedded-bean-post-processor/">Spring内置的BeanPostProcessor总结</a></li>
-</ol>
-<p>SpringBoot：</p>
-<ol>
-<li><a href="http://fangjian0423.github.io/2017/06/28/springboot-application-exit/">SpringBoot应用程序的关闭</a></li>
-</ol>
-<p>会写一些例子记录学习的过程，上传到<a href="https://github.com/fangjian0423/springboot-analysis" target="_blank" rel="external">github</a>。</p>
-<p>我不能保证写的每个地方都是对的，有问题的地方还请指出来，一起学习!</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/07/24/es-cluster-notes/" itemprop="url">
-                  Elasticsearch集群知识笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-24T21:20:20+08:00" content="2017-07-24">
-              2017-07-24
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/elasticsearch/" itemprop="url" rel="index">
-                    <span itemprop="name">elasticsearch</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/07/24/es-cluster-notes/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/24/es-cluster-notes/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/07/24/es-cluster-notes/" class="leancloud_visitors" data-flag-title="Elasticsearch集群知识笔记">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Elasticsearch内部提供了一个rest接口用于查看集群内部的健康状况：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -XGET http://localhost:9200/_cluster/health</div></pre></td></tr></table></figure>
-<p>response结果：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  "cluster_name": "format-es",</div><div class="line">  "status": "green",</div><div class="line">  ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>这里的status有3种状态，分别是green(所有主分片和复制分片都可用)，yellow(所有主分片可用，但不是所有复制分片都可用)和red(不是所有主分片可用)。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/07/24/es-cluster-notes/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/07/05/mysql-index-summary/" itemprop="url">
-                  MySQL索引知识总结
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-05T19:30:30+08:00" content="2017-07-05">
-              2017-07-05
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/mysql/" itemprop="url" rel="index">
-                    <span itemprop="name">mysql</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/07/05/mysql-index-summary/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/05/mysql-index-summary/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/07/05/mysql-index-summary/" class="leancloud_visitors" data-flag-title="MySQL索引知识总结">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>对MySQL索引知识的总结笔记。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/07/05/mysql-index-summary/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/28/springboot-application-exit/" itemprop="url">
-                  SpringBoot应用程序的关闭
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-28T09:15:30+08:00" content="2017-06-28">
-              2017-06-28
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/28/springboot-application-exit/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/28/springboot-application-exit/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/28/springboot-application-exit/" class="leancloud_visitors" data-flag-title="SpringBoot应用程序的关闭">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>SpringBoot应用程序的关闭目前总结起来有4种方式：</p>
-<ol>
-<li>Rest接口：使用spring-boot-starter-actuator模块里的ShutdownEndpoint</li>
-<li>SpringApplication的exit静态方法：直接调用该静态方法即可</li>
-<li>JMX：使用SpringBoot内部提供的MXBean</li>
-<li>使用第三方进程管理工具</li>
+<li>权限控制和安全性：可以识别认证需要的信息和拒绝不满足条件的请求</li>
+<li>监控：监控请求信息</li>
+<li>动态路由：根据需要动态地路由请求到后台的不同集群</li>
+<li>压力测试</li>
+<li>负载均衡</li>
+<li>静态资源处理：直接在zuul处理静态资源的响应而不需要转发这些请求到内部集群中</li>
 </ol>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/28/springboot-application-exit/#more" rel="contents">
+            <a class="btn" href="/2017/02/22/springcloud-zuul/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -880,8 +1578,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/24/spring-embedded-bean-post-processor/" itemprop="url">
-                  Spring内置的BeanPostProcessor总结
+                <a class="post-title-link" href="/2017/02/19/springcloud-hystrix/" itemprop="url">
+                  SpringCloud使用Hystrix实现断路器
                 </a>
               
             
@@ -894,8 +1592,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-24T00:57:01+08:00" content="2017-06-24">
-              2017-06-24
+            <time itemprop="dateCreated" datetime="2017-02-19T12:11:39+08:00" content="2017-02-19">
+              2017-02-19
             </time>
           </span>
 
@@ -908,8 +1606,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/springcloud/" itemprop="url" rel="index">
+                    <span itemprop="name">springcloud</span>
                   </a>
                 </span>
 
@@ -924,8 +1622,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/24/spring-embedded-bean-post-processor/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/24/spring-embedded-bean-post-processor/" itemprop="commentsCount"></span>
+                <a href="/2017/02/19/springcloud-hystrix/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/02/19/springcloud-hystrix/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -935,7 +1633,7 @@
 
           
           
-             <span id="/2017/06/24/spring-embedded-bean-post-processor/" class="leancloud_visitors" data-flag-title="Spring内置的BeanPostProcessor总结">
+             <span id="/2017/02/19/springcloud-hystrix/" class="leancloud_visitors" data-flag-title="SpringCloud使用Hystrix实现断路器">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -958,714 +1656,12 @@
 
       
         
-          <p>Spring内置了一些很有用的BeanPostProcessor接口实现类。比如有AutowiredAnnotationBeanPostProcessor、RequiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor、EventListenerMethodProcessor等。这些Processor会处理各自的场景。</p>
-<p>正是有了这些processor，把bean的构造过程中的一部分功能分配给了这些processor处理，减轻了BeanFactory的负担。</p>
-<p>而且添加一些新的功能也很方便。比如Spring Scheduling模块，只需要添加个@EnableScheduling注解，然后加个@Scheduled注解修饰的方法即可，这个Processor内部会自行处理。</p>
+          <p><a href="https://github.com/Netflix/Hystrix">Hystrix</a>是一个供分布式系统使用，提供延迟和容错功能，保证复杂的分布系统在面临不可避免的失败时，仍能有其弹性。</p>
+<p>比如系统中有很多服务，当某些服务不稳定的时候，使用这些服务的用户线程将会阻塞，如果没有隔离机制，系统随时就有可能会挂掉，从而带来很大的风险。</p>
+<p>SpringCloud使用Hystrix组件提供断路器、资源隔离与自我修复功能。下图表示服务B触发了断路器，阻止了级联失败。</p>
+<p><img src="http://cloud.spring.io/spring-cloud-static/Brixton.SR7/images/HystrixFallback.png" alt="image"></p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/24/spring-embedded-bean-post-processor/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/20/spring-bean-post-processor/" itemprop="url">
-                  Spring内部的BeanPostProcessor接口总结
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-20T19:30:30+08:00" content="2017-06-20">
-              2017-06-20
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/20/spring-bean-post-processor/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/20/spring-bean-post-processor/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/20/spring-bean-post-processor/" class="leancloud_visitors" data-flag-title="Spring内部的BeanPostProcessor接口总结">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Spring内部提供了一个BeanPostProcessor接口，这个接口的作用在于对于新构造的实例可以做一些自定义的修改。比如如何构造、属性值的修改、构造器的选择等等。</p>
-<p>只要我们实现了这个接口，便可以对构造的bean进行自定义的修改。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/20/spring-bean-post-processor/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/15/spring-bean-register-note/" itemprop="url">
-                  Spring类注册笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-15T22:14:37+08:00" content="2017-06-15">
-              2017-06-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/15/spring-bean-register-note/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/spring-bean-register-note/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/15/spring-bean-register-note/" class="leancloud_visitors" data-flag-title="Spring类注册笔记">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>对Spring类注册功能做个笔记，包括内置的一些扫描器以及这些扫描器的用途和注意点；还有bean注册相关的接口介绍；最后就是这些扫描器在SpringBoot上的使用。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/15/spring-bean-register-note/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/11/spring-custom-component-provider/" itemprop="url">
-                  Spring自定义类扫描器
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-11T18:41:50+08:00" content="2017-06-11">
-              2017-06-11
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/11/spring-custom-component-provider/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/11/spring-custom-component-provider/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/11/spring-custom-component-provider/" class="leancloud_visitors" data-flag-title="Spring自定义类扫描器">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>在我们刚开始接触Spring的时候，要定义bean的话需要在xml中编写，比如：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">"myBean"</span> <span class="attr">class</span>=<span class="string">"your.pkg.YourClass"</span>/&gt;</span></div></pre></td></tr></table></figure>
-<p>后来发现如果bean比较多，会需要写很多的bean标签，太麻烦了。于是出现了一个component-scan注解。这个注解直接指定包名就可以，它会去扫描这个包下所有的class，然后判断是否解析：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">context:component-scan</span> <span class="attr">base-package</span>=<span class="string">"your.pkg"</span>/&gt;</span></div></pre></td></tr></table></figure>
-<p>再后来，由于注解Annotation的流行，出现了@ComponentScan注解，作用跟component-scan标签一样，跟@Configuration注解配合使用：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@ComponentScan</span>(basePackages = &#123;<span class="string">"your.pkg"</span>, <span class="string">"other.pkg"</span>&#125;)</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Application</span> </span>&#123; ... &#125;</div></pre></td></tr></table></figure>
-<p>不论是component-scan标签，还是@ComponentScan注解。它们扫描或解析的bean只能是Spring内部所定义的，比如@Component、@Service、@Controller或@Repository。如果有一些自定义的注解，比如@Consumer、这个注解修饰的类是不会被扫描到的。这个时候我们就得自定义扫描器完成这个操作。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/11/spring-custom-component-provider/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/10/springboot-environment-analysis/" itemprop="url">
-                  SpringBoot源码分析之配置环境的构造过程
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-10T19:30:30+08:00" content="2017-06-10">
-              2017-06-10
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/10/springboot-environment-analysis/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/10/springboot-environment-analysis/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/10/springboot-environment-analysis/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之配置环境的构造过程">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>SpringBoot把配置文件的加载封装成了PropertySourceLoader接口，该接口的定义如下：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">PropertySourceLoader</span> </span>&#123;</div><div class="line">	<span class="comment">// 支持的文件后缀</span></div><div class="line">	String[] getFileExtensions();</div><div class="line">	<span class="comment">// 把资源Resource加载成属性源PropertySource</span></div><div class="line">	PropertySource&lt;?&gt; load(String name, Resource resource, String profile)</div><div class="line">			<span class="keyword">throws</span> IOException;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>PropertySource是Spring对name/value键值对的封装接口。该定义了getSource()方法，这个方法会返回得到属性源的源头。比如MapPropertySource的源头就是一个Map，PropertiesPropertySource的源头就是一个Properties。</p>
-<p>PropertySource目前的实现类有不少，比如上面提到的MapPropertySource和PropertiesPropertySource，还有RandomValuePropertySource(source是Random)、SimpleCommandLinePropertySource(source是CommandLineArgs，命令行参数)、ServletConfigPropertySource(source是ServletConfig)等等。</p>
-<p>PropertySourceLoader接口目前有两个实现类：PropertiesPropertySourceLoader和YamlPropertySourceLoader。</p>
-<p>PropertiesPropertySourceLoader支持从xml或properties格式的文件中加载数据。</p>
-<p>YamlPropertySourceLoader支持从yml或者yaml格式的文件中加载数据。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/10/springboot-environment-analysis/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/05/springboot-factory-loading-mechanism/" itemprop="url">
-                  SpringBoot源码分析之工厂加载机制
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-05T19:30:30+08:00" content="2017-06-05">
-              2017-06-05
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/05/springboot-factory-loading-mechanism/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/springboot-factory-loading-mechanism/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/05/springboot-factory-loading-mechanism/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之工厂加载机制">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>在之前的一些文章中，我们提到过从spring.factories中找出key为XXX的类。比如@EnableAutoConfiguration注解对应的EnableAutoConfigurationImportSelector中的selectImport方法会在spring.factories文件中找出key为EnableAutoConfiguration对应的值。这些类都是自动化配置类：</p>
-<pre><code>// 这个spring.factories文件在spring-boot-autoconfigure模块的 META-INF/spring.factories中
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration,\
-org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,\
-org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration,\
-org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration,\
-org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration,\
-org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration,\
-org.springframework.boot.autoconfigure.cloud.CloudAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,\
-org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
-......
-</code></pre>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/springboot-factory-loading-mechanism/#more" rel="contents">
+            <a class="btn" href="/2017/02/19/springcloud-hystrix/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1703,7 +1699,7 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1972,7 +1968,7 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
 
     <script type="text/javascript">
       var disqus_shortname = 'fangjian0423';
-      var disqus_identifier = 'index.html';
+      var disqus_identifier = 'page/2/index.html';
       var disqus_title = "";
       var disqus_url = '';
 

@@ -89,7 +89,7 @@
 <meta name="description" content="吃饭睡觉撸代码">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Format's Notes">
-<meta property="og:url" content="http://fangjian0423.github.io/index.html">
+<meta property="og:url" content="http://fangjian0423.github.io/page/5/index.html">
 <meta property="og:site_name" content="Format's Notes">
 <meta property="og:description" content="吃饭睡觉撸代码">
 <meta name="twitter:card" content="summary">
@@ -288,10 +288,8 @@
   
   
   
-    
-  
 
-  <article class="post post-type-normal  post-sticky" itemscope itemtype="//schema.org/Article">
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
 
     
       <header class="post-header">
@@ -303,12 +301,8 @@
             
               
                 
-                  <span class="post-sticky-flag" title="置顶">
-                    <i class="fa fa-thumb-tack"></i>
-                  </span>
-                
-                <a class="post-title-link" href="/2017/06/05/springboot-source-analysis-summary/" itemprop="url">
-                  SpringBoot源码分析系列
+                <a class="post-title-link" href="/2016/04/10/jdk_priorityqueue/" itemprop="url">
+                  jdk PriorityQueue优先队列工作原理分析
                 </a>
               
             
@@ -321,8 +315,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-05T19:40:30+08:00" content="2017-06-05">
-              2017-06-05
+            <time itemprop="dateCreated" datetime="2016-04-10T21:36:08+08:00" content="2016-04-10">
+              2016-04-10
             </time>
           </span>
 
@@ -335,8 +329,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -351,8 +345,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/05/springboot-source-analysis-summary/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/springboot-source-analysis-summary/" itemprop="commentsCount"></span>
+                <a href="/2016/04/10/jdk_priorityqueue/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/10/jdk_priorityqueue/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -362,7 +356,7 @@
 
           
           
-             <span id="/2017/06/05/springboot-source-analysis-summary/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析系列">
+             <span id="/2016/04/10/jdk_priorityqueue/" class="leancloud_visitors" data-flag-title="jdk PriorityQueue优先队列工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -385,171 +379,437 @@
 
       
         
+          <p>优先队列跟普通的队列不一样，普通队列是一种遵循FIFO规则的队列，拿数据的时候按照加入队列的顺序拿取。   而优先队列每次拿数据的时候都会拿出优先级最高的数据。</p>
+<p>优先队列内部维护着一个堆，每次取数据的时候都从堆顶拿数据，这就是优先队列的原理。</p>
+<p>jdk的优先队列使用PriorityQueue这个类，使用者可以自己定义优先级规则。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/04/10/jdk_priorityqueue/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/09/heap-heapsort/" itemprop="url">
+                  堆、二叉堆、堆排序
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-09T17:42:18+08:00" content="2016-04-09">
+              2016-04-09
+            </time>
+          </span>
+
           
-            <p>自己总结和学习的SpringBoot源码，包括一些例子代码和文章。</p>
-<p>本系列不涉及SpringBoot的入门，主要针对想深入学习SpringBoot的读者。</p>
-<p>目前已经有的文章：</p>
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/algorithm/" itemprop="url" rel="index">
+                    <span itemprop="name">algorithm</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/09/heap-heapsort/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/09/heap-heapsort/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/04/09/heap-heapsort/" class="leancloud_visitors" data-flag-title="堆、二叉堆、堆排序">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>堆的概念：</p>
+<p>n个元素序列 { k1, k2, k3, k4, k5, k6 …. kn } 当且仅当满足以下关系时才会被称为堆：</p>
+<pre><code>ki &lt;= k2i,ki &lt;= k2i+1 或者 ki &gt;= k2i,ki &gt;= k2i+1 (i = 1,2,3,4 .. n/2)
+</code></pre><p>如果数组的下表是从0开始，那么需要满足 </p>
+<pre><code>ki &lt;= k2i+1,ki &lt;= k2i+2 或者 ki &gt;= k2i+1,ki &gt;= k2i+2 (i = 0,1,2,3 .. n/2)
+</code></pre><p>比如 { 1,3,5,10,15,9 } 这个序列就满足 [1 &lt;= 3; 1 &lt;= 5],  [3 &lt;= 10; 3 &lt;= 15], [5 &lt;= 9] 这3个条件，这个序列就是一个堆。</p>
+<p>所以堆其实是一个序列(数组)，如果这个序列满足上述条件，那么就把这个序列看成堆。</p>
+<p>堆的实现通常是通过构造二叉堆，因为二叉堆应用很普遍，当不加限定时，堆通常指的就是二叉堆。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/04/09/heap-heapsort/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/08/jdk_treeset/" itemprop="url">
+                  jdk TreeSet工作原理分析
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-08T00:20:23+08:00" content="2016-04-08">
+              2016-04-08
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/08/jdk_treeset/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/08/jdk_treeset/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/04/08/jdk_treeset/" class="leancloud_visitors" data-flag-title="jdk TreeSet工作原理分析">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>TreeSet跟HashSet，LinkedHashSet一样，都是Set接口的实现类。</p>
+<p>HashSet内部使用的HashMap，LinkedHashSet继承HashSet，内部使用的是LinkedHashMap。</p>
+<p>TreeSet实现的是NavigableSet接口，而不是HashSet和LinkedHashSet实现的Set接口。</p>
+<p>NavigableSet接口继承自SortedSet接口，SortedSet接口继承自Set接口。</p>
+<p>NavigableSet接口比Set更方便，可以使用firstKey[最小关键字]，lastKey[最大关键字]，pollFirstEntry[最小键值对]，pollLastEntry[最大键值对]，higherEntry[比参数关键字要大的键值对]，lowerEntry[比参数关键字要小的键值对]等等方便方法，可以使用这些方法方便地获取期望位置上的键值对。</p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/04/08/jdk_treeset/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/07/jdk_treemap/" itemprop="url">
+                  jdk TreeMap工作原理分析
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-07T00:55:31+08:00" content="2016-04-07">
+              2016-04-07
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/07/jdk_treemap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/07/jdk_treemap/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/04/07/jdk_treemap/" class="leancloud_visitors" data-flag-title="jdk TreeMap工作原理分析">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>TreeMap是jdk中基于红黑树的一种map实现。HashMap底层是使用链表法解决冲突的哈希表，LinkedHashMap继承自HashMap，内部同样也是使用链表法解决冲突的哈希表，但是额外添加了一个双向链表用于处理元素的插入顺序或访问访问。</p>
+<p>既然TreeMap底层使用的是红黑树，首先先来简单了解一下红黑树的定义。</p>
+<p>红黑树是一棵平衡二叉查找树，同时还需要满足以下5个规则：</p>
 <ol>
-<li><a href="http://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/">SpringBoot源码分析之SpringBoot的启动过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/10/springboot-context-refresh/">SpringBoot源码分析之Spring容器的refresh过程</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/16/springboot-condition-annotation/">SpringBoot源码分析之条件注解的底层实现</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/22/springboot-embedded-servlet-container/">SpringBoot源码分析之内置Servlet容器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/05/31/springboot-executable-jar/">SpringBoot源码分析之SpringBoot可执行文件解析</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/05/springboot-factory-loading-mechanism">SpringBoot源码分析之工厂加载机制</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/10/springboot-environment-analysis">SpringBoot源码分析之配置环境的构造过程</a></li>
+<li>每个节点只能是红色或者黑点</li>
+<li>根节点是黑点</li>
+<li>叶子节点(Nil节点，空节点)是黑色节点</li>
+<li>如果一个节点是红色节点，那么它的两个子节点必须是黑色节点(一条路径上不能出现相邻的两个红色节点)</li>
+<li>从任一节点到其每个叶子节点的所有路径都包含相同数目的黑色节点</li>
 </ol>
-<p>另外也会写一些Spring和SpringBoot相关的文章。</p>
-<p>Spring：</p>
-<ol>
-<li><a href="http://fangjian0423.github.io/2017/06/11/spring-custom-component-provider/">Spring自定义类扫描器</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/15/spring-bean-register-note/">Spring类注册笔记</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/20/spring-bean-post-processor/">Spring内部的BeanPostProcessor接口总结</a></li>
-<li><a href="http://fangjian0423.github.io/2017/06/24/spring-embedded-bean-post-processor/">Spring内置的BeanPostProcessor总结</a></li>
-</ol>
-<p>SpringBoot：</p>
-<ol>
-<li><a href="http://fangjian0423.github.io/2017/06/28/springboot-application-exit/">SpringBoot应用程序的关闭</a></li>
-</ol>
-<p>会写一些例子记录学习的过程，上传到<a href="https://github.com/fangjian0423/springboot-analysis" target="_blank" rel="external">github</a>。</p>
-<p>我不能保证写的每个地方都是对的，有问题的地方还请指出来，一起学习!</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/07/24/es-cluster-notes/" itemprop="url">
-                  Elasticsearch集群知识笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-24T21:20:20+08:00" content="2017-07-24">
-              2017-07-24
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/elasticsearch/" itemprop="url" rel="index">
-                    <span itemprop="name">elasticsearch</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/07/24/es-cluster-notes/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/24/es-cluster-notes/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/07/24/es-cluster-notes/" class="leancloud_visitors" data-flag-title="Elasticsearch集群知识笔记">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Elasticsearch内部提供了一个rest接口用于查看集群内部的健康状况：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -XGET http://localhost:9200/_cluster/health</div></pre></td></tr></table></figure>
-<p>response结果：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  "cluster_name": "format-es",</div><div class="line">  "status": "green",</div><div class="line">  ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>这里的status有3种状态，分别是green(所有主分片和复制分片都可用)，yellow(所有主分片可用，但不是所有复制分片都可用)和red(不是所有主分片可用)。</p>
+<p>红黑树的这些特性决定了它的查询、插入、删除操作的时间复杂度均为O(log n)。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/07/24/es-cluster-notes/#more" rel="contents">
+            <a class="btn" href="/2016/04/07/jdk_treemap/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -604,8 +864,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/07/05/mysql-index-summary/" itemprop="url">
-                  MySQL索引知识总结
+                <a class="post-title-link" href="/2016/04/03/jdk_arraydeque/" itemprop="url">
+                  jdk ArrayDeque工作原理分析
                 </a>
               
             
@@ -618,8 +878,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-05T19:30:30+08:00" content="2017-07-05">
-              2017-07-05
+            <time itemprop="dateCreated" datetime="2016-04-03T00:43:59+08:00" content="2016-04-03">
+              2016-04-03
             </time>
           </span>
 
@@ -632,8 +892,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/mysql/" itemprop="url" rel="index">
-                    <span itemprop="name">mysql</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -648,8 +908,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/07/05/mysql-index-summary/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/07/05/mysql-index-summary/" itemprop="commentsCount"></span>
+                <a href="/2016/04/03/jdk_arraydeque/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/03/jdk_arraydeque/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -659,7 +919,7 @@
 
           
           
-             <span id="/2017/07/05/mysql-index-summary/" class="leancloud_visitors" data-flag-title="MySQL索引知识总结">
+             <span id="/2016/04/03/jdk_arraydeque/" class="leancloud_visitors" data-flag-title="jdk ArrayDeque工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -682,9 +942,11 @@
 
       
         
-          <p>对MySQL索引知识的总结笔记。</p>
+          <p>ArrayDeque双向队列是jdk中列表的一种实现，支持元素在头和尾这两端进行插入和删除操作。</p>
+<p>Deque接口(双向队列)的两个主要实现类是ArrayDeque和LinkedList。</p>
+<p>其中ArrayDeque底层使用循环数组实现双向队列，而LinkedList是使用链表实现，之前在<a href="http://fangjian0423.github.io/2016/03/27/jdk_linkedlist/">jdk LinkedList工作原理分析</a>这篇文章中，已经分析过了LinkedList的实现原理，本文分析ArrayDeque的实现原理。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/07/05/mysql-index-summary/#more" rel="contents">
+            <a class="btn" href="/2016/04/03/jdk_arraydeque/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -739,8 +1001,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/28/springboot-application-exit/" itemprop="url">
-                  SpringBoot应用程序的关闭
+                <a class="post-title-link" href="/2016/03/30/jdk_hashset_linkedhashset/" itemprop="url">
+                  jdk HashSet, LinkedHashSet工作原理分析
                 </a>
               
             
@@ -753,8 +1015,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-28T09:15:30+08:00" content="2017-06-28">
-              2017-06-28
+            <time itemprop="dateCreated" datetime="2016-03-30T00:46:33+08:00" content="2016-03-30">
+              2016-03-30
             </time>
           </span>
 
@@ -767,8 +1029,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -783,8 +1045,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/28/springboot-application-exit/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/28/springboot-application-exit/" itemprop="commentsCount"></span>
+                <a href="/2016/03/30/jdk_hashset_linkedhashset/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/30/jdk_hashset_linkedhashset/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -794,7 +1056,7 @@
 
           
           
-             <span id="/2017/06/28/springboot-application-exit/" class="leancloud_visitors" data-flag-title="SpringBoot应用程序的关闭">
+             <span id="/2016/03/30/jdk_hashset_linkedhashset/" class="leancloud_visitors" data-flag-title="jdk HashSet, LinkedHashSet工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -817,15 +1079,10 @@
 
       
         
-          <p>SpringBoot应用程序的关闭目前总结起来有4种方式：</p>
-<ol>
-<li>Rest接口：使用spring-boot-starter-actuator模块里的ShutdownEndpoint</li>
-<li>SpringApplication的exit静态方法：直接调用该静态方法即可</li>
-<li>JMX：使用SpringBoot内部提供的MXBean</li>
-<li>使用第三方进程管理工具</li>
-</ol>
+          <p>Set是一个没有包括重复数据的集合，跟List一样，他们都继承自Collection。</p>
+<p>Java中的Set接口最主要的实现类就是HashSet和LinkedHashSet。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/28/springboot-application-exit/#more" rel="contents">
+            <a class="btn" href="/2016/03/30/jdk_hashset_linkedhashset/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -880,8 +1137,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/24/spring-embedded-bean-post-processor/" itemprop="url">
-                  Spring内置的BeanPostProcessor总结
+                <a class="post-title-link" href="/2016/03/29/jdk_linkedhashmap/" itemprop="url">
+                  jdk LinkedHashMap工作原理分析
                 </a>
               
             
@@ -894,8 +1151,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-24T00:57:01+08:00" content="2017-06-24">
-              2017-06-24
+            <time itemprop="dateCreated" datetime="2016-03-29T19:23:23+08:00" content="2016-03-29">
+              2016-03-29
             </time>
           </span>
 
@@ -908,8 +1165,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -924,8 +1181,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/24/spring-embedded-bean-post-processor/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/24/spring-embedded-bean-post-processor/" itemprop="commentsCount"></span>
+                <a href="/2016/03/29/jdk_linkedhashmap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/29/jdk_linkedhashmap/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -935,7 +1192,7 @@
 
           
           
-             <span id="/2017/06/24/spring-embedded-bean-post-processor/" class="leancloud_visitors" data-flag-title="Spring内置的BeanPostProcessor总结">
+             <span id="/2016/03/29/jdk_linkedhashmap/" class="leancloud_visitors" data-flag-title="jdk LinkedHashMap工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -958,11 +1215,9 @@
 
       
         
-          <p>Spring内置了一些很有用的BeanPostProcessor接口实现类。比如有AutowiredAnnotationBeanPostProcessor、RequiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor、EventListenerMethodProcessor等。这些Processor会处理各自的场景。</p>
-<p>正是有了这些processor，把bean的构造过程中的一部分功能分配给了这些processor处理，减轻了BeanFactory的负担。</p>
-<p>而且添加一些新的功能也很方便。比如Spring Scheduling模块，只需要添加个@EnableScheduling注解，然后加个@Scheduled注解修饰的方法即可，这个Processor内部会自行处理。</p>
+          <p>LinkedHashMap是一种会记录插入顺序的Map，内部维护着一个accessOrder属性，用于表示map数据的迭代顺序是基于访问顺序还是插入顺序。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/24/spring-embedded-bean-post-processor/#more" rel="contents">
+            <a class="btn" href="/2016/03/29/jdk_linkedhashmap/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1017,8 +1272,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/20/spring-bean-post-processor/" itemprop="url">
-                  Spring内部的BeanPostProcessor接口总结
+                <a class="post-title-link" href="/2016/03/29/jdk_hashmap/" itemprop="url">
+                  jdk HashMap工作原理分析
                 </a>
               
             
@@ -1031,8 +1286,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-20T19:30:30+08:00" content="2017-06-20">
-              2017-06-20
+            <time itemprop="dateCreated" datetime="2016-03-29T01:49:58+08:00" content="2016-03-29">
+              2016-03-29
             </time>
           </span>
 
@@ -1045,8 +1300,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -1061,8 +1316,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/20/spring-bean-post-processor/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/20/spring-bean-post-processor/" itemprop="commentsCount"></span>
+                <a href="/2016/03/29/jdk_hashmap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/29/jdk_hashmap/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -1072,7 +1327,7 @@
 
           
           
-             <span id="/2017/06/20/spring-bean-post-processor/" class="leancloud_visitors" data-flag-title="Spring内部的BeanPostProcessor接口总结">
+             <span id="/2016/03/29/jdk_hashmap/" class="leancloud_visitors" data-flag-title="jdk HashMap工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1095,10 +1350,14 @@
 
       
         
-          <p>Spring内部提供了一个BeanPostProcessor接口，这个接口的作用在于对于新构造的实例可以做一些自定义的修改。比如如何构造、属性值的修改、构造器的选择等等。</p>
-<p>只要我们实现了这个接口，便可以对构造的bean进行自定义的修改。</p>
+          <p>Map是一个映射键和值的对象。类似于Python中的字典。</p>
+<p>HashMap为什么会出现呢?</p>
+<p>因为数组这种数据结构，虽然遍历简单，但是插入和删除操作复杂，需要移动数组内部的元素；链表这种数据结构，插入和删除操作简单，但是查找复杂，只能一个一个地遍历。</p>
+<p>有没有一种新的数据结构，插入数据简单，同时查找也简单？ 这个时候就出现了哈希表这种数据结构。 这是一种折中的方式，插入没链表快，查询没数组快。</p>
+<p>wiki上就是这么定义哈希表的：</p>
+<p>散列表（Hash table，也叫哈希表），是根据关键字（Key value）而直接访问在内存存储位置的数据结构。也就是说，它通过计算一个关于键值的函数，将所需查询的数据映射到表中一个位置来访问记录，这加快了查找速度。这个映射函数称做散列函数，存放记录的数组称做散列表。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/20/spring-bean-post-processor/#more" rel="contents">
+            <a class="btn" href="/2016/03/29/jdk_hashmap/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1153,8 +1412,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/15/spring-bean-register-note/" itemprop="url">
-                  Spring类注册笔记
+                <a class="post-title-link" href="/2016/03/27/jdk_linkedlist/" itemprop="url">
+                  jdk LinkedList工作原理分析
                 </a>
               
             
@@ -1167,8 +1426,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-15T22:14:37+08:00" content="2017-06-15">
-              2017-06-15
+            <time itemprop="dateCreated" datetime="2016-03-27T17:35:27+08:00" content="2016-03-27">
+              2016-03-27
             </time>
           </span>
 
@@ -1181,8 +1440,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -1197,8 +1456,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/15/spring-bean-register-note/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/15/spring-bean-register-note/" itemprop="commentsCount"></span>
+                <a href="/2016/03/27/jdk_linkedlist/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/27/jdk_linkedlist/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -1208,7 +1467,7 @@
 
           
           
-             <span id="/2017/06/15/spring-bean-register-note/" class="leancloud_visitors" data-flag-title="Spring类注册笔记">
+             <span id="/2016/03/27/jdk_linkedlist/" class="leancloud_visitors" data-flag-title="jdk LinkedList工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1231,9 +1490,11 @@
 
       
         
-          <p>对Spring类注册功能做个笔记，包括内置的一些扫描器以及这些扫描器的用途和注意点；还有bean注册相关的接口介绍；最后就是这些扫描器在SpringBoot上的使用。</p>
+          <p>List接口的实现类之一ArrayList的内部实现是一个数组，而另外一个实现LinkedList内部实现是使用双向链表。</p>
+<p>LinkedList在内部定义了一个叫做Node类型的内部类，这个Node就是一个节点，链表中的节点，这个节点有3个属性，分别是元素item(当前节点要表示的值), 前节点prev(当前节点之前位置上的一个节点)，后节点next(当前节点后面位置的一个节点)。 </p>
+<p>LinkedList关于数据的插入，删除操作都会处理这些节点的前后关系。而不像ArrayList那样只需要移动元素的位置即可。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/15/spring-bean-register-note/#more" rel="contents">
+            <a class="btn" href="/2016/03/27/jdk_linkedlist/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1288,8 +1549,8 @@
             
               
                 
-                <a class="post-title-link" href="/2017/06/11/spring-custom-component-provider/" itemprop="url">
-                  Spring自定义类扫描器
+                <a class="post-title-link" href="/2016/03/27/jdk_arraylist/" itemprop="url">
+                  jdk ArrayList工作原理分析
                 </a>
               
             
@@ -1302,8 +1563,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-11T18:41:50+08:00" content="2017-06-11">
-              2017-06-11
+            <time itemprop="dateCreated" datetime="2016-03-27T13:33:17+08:00" content="2016-03-27">
+              2016-03-27
             </time>
           </span>
 
@@ -1316,8 +1577,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
+                  <a href="/categories/jdk/" itemprop="url" rel="index">
+                    <span itemprop="name">jdk</span>
                   </a>
                 </span>
 
@@ -1332,8 +1593,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/06/11/spring-custom-component-provider/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/11/spring-custom-component-provider/" itemprop="commentsCount"></span>
+                <a href="/2016/03/27/jdk_arraylist/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/03/27/jdk_arraylist/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -1343,7 +1604,7 @@
 
           
           
-             <span id="/2017/06/11/spring-custom-component-provider/" class="leancloud_visitors" data-flag-title="Spring自定义类扫描器">
+             <span id="/2016/03/27/jdk_arraylist/" class="leancloud_visitors" data-flag-title="jdk ArrayList工作原理分析">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1366,306 +1627,11 @@
 
       
         
-          <p>在我们刚开始接触Spring的时候，要定义bean的话需要在xml中编写，比如：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">"myBean"</span> <span class="attr">class</span>=<span class="string">"your.pkg.YourClass"</span>/&gt;</span></div></pre></td></tr></table></figure>
-<p>后来发现如果bean比较多，会需要写很多的bean标签，太麻烦了。于是出现了一个component-scan注解。这个注解直接指定包名就可以，它会去扫描这个包下所有的class，然后判断是否解析：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">context:component-scan</span> <span class="attr">base-package</span>=<span class="string">"your.pkg"</span>/&gt;</span></div></pre></td></tr></table></figure>
-<p>再后来，由于注解Annotation的流行，出现了@ComponentScan注解，作用跟component-scan标签一样，跟@Configuration注解配合使用：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@ComponentScan</span>(basePackages = &#123;<span class="string">"your.pkg"</span>, <span class="string">"other.pkg"</span>&#125;)</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Application</span> </span>&#123; ... &#125;</div></pre></td></tr></table></figure>
-<p>不论是component-scan标签，还是@ComponentScan注解。它们扫描或解析的bean只能是Spring内部所定义的，比如@Component、@Service、@Controller或@Repository。如果有一些自定义的注解，比如@Consumer、这个注解修饰的类是不会被扫描到的。这个时候我们就得自定义扫描器完成这个操作。</p>
+          <p>list是一种有序的集合(an ordered collection), 通常也会被称为序列(sequence)，使用list可以精确地控制每个元素的插入，可以通过索引值找到对应list中的各个项，也可以在list中查询元素。</p>
+<p>以前的几段话摘自jdk文档的说明。</p>
+<p>其实list就相当于一个动态的数组，也就是链表，普通的数组长度大小都是固定的，而list是一个动态的数组，当list的长度满了，再次插入数据到list当中的时候，list会自动地扩展它的长度。</p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/11/spring-custom-component-provider/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/10/springboot-environment-analysis/" itemprop="url">
-                  SpringBoot源码分析之配置环境的构造过程
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-10T19:30:30+08:00" content="2017-06-10">
-              2017-06-10
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/10/springboot-environment-analysis/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/10/springboot-environment-analysis/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/10/springboot-environment-analysis/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之配置环境的构造过程">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>SpringBoot把配置文件的加载封装成了PropertySourceLoader接口，该接口的定义如下：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">PropertySourceLoader</span> </span>&#123;</div><div class="line">	<span class="comment">// 支持的文件后缀</span></div><div class="line">	String[] getFileExtensions();</div><div class="line">	<span class="comment">// 把资源Resource加载成属性源PropertySource</span></div><div class="line">	PropertySource&lt;?&gt; load(String name, Resource resource, String profile)</div><div class="line">			<span class="keyword">throws</span> IOException;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>PropertySource是Spring对name/value键值对的封装接口。该定义了getSource()方法，这个方法会返回得到属性源的源头。比如MapPropertySource的源头就是一个Map，PropertiesPropertySource的源头就是一个Properties。</p>
-<p>PropertySource目前的实现类有不少，比如上面提到的MapPropertySource和PropertiesPropertySource，还有RandomValuePropertySource(source是Random)、SimpleCommandLinePropertySource(source是CommandLineArgs，命令行参数)、ServletConfigPropertySource(source是ServletConfig)等等。</p>
-<p>PropertySourceLoader接口目前有两个实现类：PropertiesPropertySourceLoader和YamlPropertySourceLoader。</p>
-<p>PropertiesPropertySourceLoader支持从xml或properties格式的文件中加载数据。</p>
-<p>YamlPropertySourceLoader支持从yml或者yaml格式的文件中加载数据。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/10/springboot-environment-analysis/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/05/springboot-factory-loading-mechanism/" itemprop="url">
-                  SpringBoot源码分析之工厂加载机制
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-06-05T19:30:30+08:00" content="2017-06-05">
-              2017-06-05
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/springboot/" itemprop="url" rel="index">
-                    <span itemprop="name">springboot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/06/05/springboot-factory-loading-mechanism/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/06/05/springboot-factory-loading-mechanism/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/06/05/springboot-factory-loading-mechanism/" class="leancloud_visitors" data-flag-title="SpringBoot源码分析之工厂加载机制">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>在之前的一些文章中，我们提到过从spring.factories中找出key为XXX的类。比如@EnableAutoConfiguration注解对应的EnableAutoConfigurationImportSelector中的selectImport方法会在spring.factories文件中找出key为EnableAutoConfiguration对应的值。这些类都是自动化配置类：</p>
-<pre><code>// 这个spring.factories文件在spring-boot-autoconfigure模块的 META-INF/spring.factories中
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration,\
-org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,\
-org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration,\
-org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration,\
-org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration,\
-org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration,\
-org.springframework.boot.autoconfigure.cloud.CloudAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,\
-org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
-......
-</code></pre>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/06/05/springboot-factory-loading-mechanism/#more" rel="contents">
+            <a class="btn" href="/2016/03/27/jdk_arraylist/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1703,7 +1669,7 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1972,7 +1938,7 @@ org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration,\
 
     <script type="text/javascript">
       var disqus_shortname = 'fangjian0423';
-      var disqus_identifier = 'index.html';
+      var disqus_identifier = 'page/5/index.html';
       var disqus_title = "";
       var disqus_url = '';
 
